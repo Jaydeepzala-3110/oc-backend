@@ -1,0 +1,103 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+//
+// ─── ENUMS ───────────────────────────────────────────────────────────
+//
+
+enum UserRole {
+  CLIPPER
+  CLIENT
+  SUPER_ADMIN
+  ADMIN
+}
+
+enum CampaignStatus {
+  ACTIVE
+  INACTIVE
+}
+
+enum Platform {
+  INSTAGRAM
+  TIKTOK
+  YOUTUBE
+  TWITTER
+  FACEBOOK
+}
+
+//
+// ─── MODELS ──────────────────────────────────────────────────────────
+//
+
+model User {
+  id            Int             @id @default(autoincrement())
+  username      String
+  email         String          @unique
+  phoneNumber   String?         @unique
+  password      String
+  role          UserRole
+  isActive      Boolean         @default(true)
+  referralCode  String?         @unique
+  referredById  Int?
+  referredBy    User?           @relation("Referrals", fields: [referredById], references: [id])
+  referrals     User[]          @relation("Referrals")
+  instagramId   String?         @unique
+  instagramUrl  String?         @unique
+  isKycVerified Boolean         @default(false)
+  Participation Participation[]
+  Campaigns     Campaign[]      @relation("ClientCampaigns")
+  createdAt     DateTime        @default(now())
+  updatedAt     DateTime        @updatedAt
+  UserStats     UserStats?
+}
+
+model Campaign {
+  id             Int             @id @default(autoincrement())
+  clientId       Int
+  client         User            @relation("ClientCampaigns", fields: [clientId], references: [id])
+  title          String
+  description    String
+  requirements   String
+  status         CampaignStatus  @default(ACTIVE)
+  platforms      Platform[]
+  startDate      DateTime
+  endDate        DateTime
+  payRate        Float
+  payUnit        String
+  budget         Float
+  participations Participation[]
+  createdAt      DateTime        @default(now())
+  updatedAt      DateTime        @updatedAt
+}
+
+model Participation {
+  id         Int      @id @default(autoincrement())
+  campaignId Int
+  clipperId  Int
+  joinedAt   DateTime @default(now())
+  campaign   Campaign @relation(fields: [campaignId], references: [id])
+  clipper    User     @relation(fields: [clipperId], references: [id])
+  views      Int      @default(0)
+  earnings   Float    @default(0.0)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+}
+
+model UserStats {
+  id             Int      @id @default(autoincrement())
+  userId         Int      @unique
+  user           User     @relation(fields: [userId], references: [id])
+  totalViews     Int      @default(0)
+  totalReels     Int      @default(0)
+  totalEarnings  Float    @default(0.0)
+  activeReels    Int      @default(0)
+  totalCampaigns Int      @default(0)
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}
