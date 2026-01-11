@@ -1,4 +1,4 @@
-import { ForbiddenException, Injectable } from '@nestjs/common';
+import { ForbiddenException, Injectable, UnauthorizedException } from '@nestjs/common';
 import { UsersService } from '../users/users.service';
 import { JwtService } from '@nestjs/jwt';
 import { AuthDto } from './dto/auth.dto';
@@ -17,8 +17,8 @@ export class AuthService {
 
     async signupLocal(dto: CreateUserDto): Promise<any> {
 
-       const isUserExists = await this.usersService.findByEmail(dto.email);
-       if (isUserExists) throw new ForbiddenException('Users already exists');
+        const isUserExists = await this.usersService.findByEmail(dto.email);
+        if (isUserExists) throw new ForbiddenException('Users already exists');
 
         const hash = await this.hashData(dto.password);
         const newUser = await this.usersService.create({
@@ -32,16 +32,25 @@ export class AuthService {
     }
 
     async signinLocal(dto: AuthDto): Promise<Tokens> {
-        const user = await this.usersService.findByEmail(dto.email);
-        if (!user) throw new ForbiddenException('Access Denied');
+        const user = await this.usersService.findByIdentifier(dto.email, dto.phoneNumber);
+
+        if (!user) {
+            if (dto.email) {
+                throw new UnauthorizedException('User with this email not found');
+            } else if (dto.phoneNumber) {
+                throw new UnauthorizedException('User with this phone number not found');
+            }
+            throw new UnauthorizedException('User not found');
+        }
 
         const passwordMatches = await bcrypt.compare(dto.password, user.password);
-        if (!passwordMatches) throw new ForbiddenException('Access Denied');
+        if (!passwordMatches) throw new UnauthorizedException('Incorrect password');
 
         const tokens = await this.getTokens(user.id, user.email, user.role);
         await this.updateRtHash(user.id, tokens.refresh_token);
         return tokens;
     }
+
 
     async logout(userId: number) {
         await this.usersService.updateHashedRefreshToken(userId, null);
@@ -101,5 +110,5 @@ export class AuthService {
         };
     }
 
-    
+
 }
