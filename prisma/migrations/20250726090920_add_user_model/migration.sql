@@ -2,7 +2,7 @@
 CREATE TYPE "UserRole" AS ENUM ('CLIPPER', 'CLIENT', 'SUPER_ADMIN', 'ADMIN');
 
 -- CreateTable
-CREATE TABLE "User" (
+CREATE TABLE "users" (
     "id" SERIAL NOT NULL,
     "username" TEXT NOT NULL,
     "email" TEXT NOT NULL,
@@ -18,23 +18,23 @@ CREATE TABLE "User" (
     "instagramUrl" TEXT,
     "isKycVerified" BOOLEAN NOT NULL DEFAULT false,
 
-    CONSTRAINT "User_pkey" PRIMARY KEY ("id")
+    CONSTRAINT "users_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateIndex
-CREATE UNIQUE INDEX "User_email_key" ON "User"("email");
+CREATE UNIQUE INDEX "users_email_key" ON "users"("email");
 
 -- CreateIndex
-CREATE UNIQUE INDEX "User_phoneNumber_key" ON "User"("phoneNumber");
+CREATE UNIQUE INDEX "users_phoneNumber_key" ON "users"("phoneNumber");
 
 -- CreateIndex
-CREATE UNIQUE INDEX "User_referralCode_key" ON "User"("referralCode");
+CREATE UNIQUE INDEX "users_referralCode_key" ON "users"("referralCode");
 
 -- CreateIndex
-CREATE UNIQUE INDEX "User_instagramId_key" ON "User"("instagramId");
+CREATE UNIQUE INDEX "users_instagramId_key" ON "users"("instagramId");
 
 -- CreateIndex
-CREATE UNIQUE INDEX "User_instagramUrl_key" ON "User"("instagramUrl");
+CREATE UNIQUE INDEX "users_instagramUrl_key" ON "users"("instagramUrl");
 
 -- AddForeignKey
-ALTER TABLE "User" ADD CONSTRAINT "User_referredById_fkey" FOREIGN KEY ("referredById") REFERENCES "User"("id") ON DELETE SET NULL ON UPDATE CASCADE;
+ALTER TABLE "users" ADD CONSTRAINT "users_referredById_fkey" FOREIGN KEY ("referredById") REFERENCES "users"("id") ON DELETE SET NULL ON UPDATE CASCADE;

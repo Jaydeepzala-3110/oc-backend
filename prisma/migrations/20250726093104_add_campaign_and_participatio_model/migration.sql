@@ -5,7 +5,7 @@ CREATE TYPE "CampaignStatus" AS ENUM ('ACTIVE', 'INACTIVE');
 CREATE TYPE "Platform" AS ENUM ('INSTAGRAM', 'TIKTOK', 'YOUTUBE', 'TWITTER', 'FACEBOOK');
 
 -- CreateTable
-CREATE TABLE "Campaign" (
+CREATE TABLE "campaigns" (
     "id" SERIAL NOT NULL,
     "clientId" INTEGER NOT NULL,
     "title" TEXT NOT NULL,
@@ -22,11 +22,11 @@ CREATE TABLE "Campaign" (
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3) NOT NULL,
 
-    CONSTRAINT "Campaign_pkey" PRIMARY KEY ("id")
+    CONSTRAINT "campaigns_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
-CREATE TABLE "Participation" (
+CREATE TABLE "participations" (
     "id" SERIAL NOT NULL,
     "campaignId" INTEGER NOT NULL,
     "clipperId" INTEGER NOT NULL,
@@ -36,17 +36,17 @@ CREATE TABLE "Participation" (
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3) NOT NULL,
 
-    CONSTRAINT "Participation_pkey" PRIMARY KEY ("id")
+    CONSTRAINT "participations_pkey" PRIMARY KEY ("id")
 );
 
 -- AddForeignKey
-ALTER TABLE "Campaign" ADD CONSTRAINT "Campaign_clientId_fkey" FOREIGN KEY ("clientId") REFERENCES "User"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "campaigns" ADD CONSTRAINT "campaigns_clientId_fkey" FOREIGN KEY ("clientId") REFERENCES "users"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "Campaign" ADD CONSTRAINT "Campaign_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User"("id") ON DELETE SET NULL ON UPDATE CASCADE;
+ALTER TABLE "campaigns" ADD CONSTRAINT "campaigns_userId_fkey" FOREIGN KEY ("userId") REFERENCES "users"("id") ON DELETE SET NULL ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "Participation" ADD CONSTRAINT "Participation_campaignId_fkey" FOREIGN KEY ("campaignId") REFERENCES "Campaign"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "participations" ADD CONSTRAINT "participations_campaignId_fkey" FOREIGN KEY ("campaignId") REFERENCES "campaigns"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "Participation" ADD CONSTRAINT "Participation_clipperId_fkey" FOREIGN KEY ("clipperId") REFERENCES "User"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "participations" ADD CONSTRAINT "participations_clipperId_fkey" FOREIGN KEY ("clipperId") REFERENCES "users"("id") ON DELETE RESTRICT ON UPDATE CASCADE;

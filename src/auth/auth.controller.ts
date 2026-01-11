@@ -18,14 +18,15 @@ export class AuthController {
     constructor(private authService: AuthService) { }
 
     @Public()
-    @Post('local/signup')
+    @Post('signup')
     @HttpCode(HttpStatus.CREATED)
     signupLocal(@Body() dto: CreateUserDto): Promise<Tokens> {
+        console.log('rached here')
         return this.authService.signupLocal(dto);
     }
 
     @Public()
-    @Post('local/signin')
+    @Post('/signin')
     @HttpCode(HttpStatus.OK)
     signinLocal(@Body() dto: AuthDto): Promise<Tokens> {
         return this.authService.signinLocal(dto);

@@ -35,9 +35,10 @@ enum Platform {
 // ─── MODELS ──────────────────────────────────────────────────────────
 //
 
-model User {
+model Users {
   id                 Int             @id @default(autoincrement())
-  username           String
+  firstName          String
+  lastName           String
   email              String          @unique
   phoneNumber        String?         @unique
   password           String
@@ -45,8 +46,8 @@ model User {
   isActive           Boolean         @default(true)
   referralCode       String?         @unique
   referredById       Int?
-  referredBy         User?           @relation("Referrals", fields: [referredById], references: [id])
-  referrals          User[]          @relation("Referrals")
+  referredBy         Users?           @relation("Referrals", fields: [referredById], references: [id])
+  referrals          Users[]          @relation("Referrals")
   instagramId        String?         @unique
   instagramUrl       String?         @unique
   isKycVerified      Boolean         @default(false)
@@ -56,12 +57,14 @@ model User {
   updatedAt          DateTime        @updatedAt
   UserStats          UserStats?
   hashedRefreshToken String?
+
+  @@map("users")
 }
 
 model Campaign {
   id             Int             @id @default(autoincrement())
   clientId       Int
-  client         User            @relation("ClientCampaigns", fields: [clientId], references: [id])
+  client         Users            @relation("ClientCampaigns", fields: [clientId], references: [id])
   title          String
   description    String
   requirements   String
@@ -75,6 +78,8 @@ model Campaign {
   participations Participation[]
   createdAt      DateTime        @default(now())
   updatedAt      DateTime        @updatedAt
+
+  @@map("campaigns")
 }
 
 model Participation {
@@ -83,17 +88,19 @@ model Participation {
   clipperId  Int
   joinedAt   DateTime @default(now())
   campaign   Campaign @relation(fields: [campaignId], references: [id])
-  clipper    User     @relation(fields: [clipperId], references: [id])
+  clipper    Users     @relation(fields: [clipperId], references: [id])
   views      Int      @default(0)
   earnings   Float    @default(0.0)
   createdAt  DateTime @default(now())
   updatedAt  DateTime @updatedAt
+
+  @@map("participations")
 }
 
 model UserStats {
   id             Int      @id @default(autoincrement())
   userId         Int      @unique
-  user           User     @relation(fields: [userId], references: [id])
+  user           Users    @relation(fields: [userId], references: [id])
   totalViews     Int      @default(0)
   totalReels     Int      @default(0)
   totalEarnings  Float    @default(0.0)
@@ -101,4 +108,6 @@ model UserStats {
   totalCampaigns Int      @default(0)
   createdAt      DateTime @default(now())
   updatedAt      DateTime @updatedAt
+
+  @@map("user_stats")
 }

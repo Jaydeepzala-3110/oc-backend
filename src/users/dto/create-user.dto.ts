@@ -8,13 +8,22 @@ export class CreateUserDto {
 
     @IsString()
     @IsNotEmpty()
-    username: string;
+    firstName: string;
+
+    @IsString()
+    @IsNotEmpty()
+    lastName: string;
+
+    @IsEnum(UserRole)
+    @IsOptional()
+    role?: UserRole = UserRole.CLIPPER;
+ 
+    @IsString()
+    @IsOptional()
+    referralCode: string;
 
     @IsString()
     @IsNotEmpty()
     password: string;
 
-    @IsEnum(UserRole)
-    @IsOptional()
-    role?: UserRole = UserRole.CLIPPER;
 }

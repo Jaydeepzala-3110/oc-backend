@@ -1,5 +1,5 @@
 -- CreateTable
-CREATE TABLE "UserStats" (
+CREATE TABLE "user_stats" (
     "id" SERIAL NOT NULL,
     "userId" INTEGER NOT NULL,
     "totalViews" INTEGER NOT NULL DEFAULT 0,
@@ -10,11 +10,11 @@ CREATE TABLE "UserStats" (
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3) NOT NULL,
 
-    CONSTRAINT "UserStats_pkey" PRIMARY KEY ("id")
+    CONSTRAINT "user_stats_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateIndex
-CREATE UNIQUE INDEX "UserStats_userId_key" ON "UserStats"("userId");
+CREATE UNIQUE INDEX "user_stats_userId_key" ON "user_stats"("userId");
 
 -- AddForeignKey
-ALTER TABLE "UserStats" ADD CONSTRAINT "UserStats_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "user_stats" ADD CONSTRAINT "user_stats_userId_fkey" FOREIGN KEY ("userId") REFERENCES "users"("id") ON DELETE RESTRICT ON UPDATE CASCADE;

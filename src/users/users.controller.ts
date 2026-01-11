@@ -13,7 +13,7 @@ export class UsersController {
     async getProfile(@GetCurrentUser('sub') userId: number) {
         const user = await this.usersService.findById(userId);
         if (!user) {
-            throw new Error('User not found');
+            throw new Error('Users not found');
         }
 
         // Remove sensitive fields

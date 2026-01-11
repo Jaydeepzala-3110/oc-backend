@@ -4,13 +4,15 @@ import { PrismaClient } from '@prisma/client';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
+  app.enableCors();
+
   await app.listen(process.env.PORT ?? 3000);
 
   const prisma = new PrismaClient();
 
   async function main() {
     await prisma.$connect();
-    console.log('✅ Connected to PostgreSQL via Prisma');
+    console.log('✅ Connected to PostgreSQL via Prisma' , process.env.PORT);
     await prisma.$disconnect();
   }
 

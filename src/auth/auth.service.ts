@@ -15,7 +15,11 @@ export class AuthService {
         private config: ConfigService,
     ) { }
 
-    async signupLocal(dto: CreateUserDto): Promise<Tokens> {
+    async signupLocal(dto: CreateUserDto): Promise<any> {
+
+       const isUserExists = await this.usersService.findByEmail(dto.email);
+       if (isUserExists) throw new ForbiddenException('Users already exists');
+
         const hash = await this.hashData(dto.password);
         const newUser = await this.usersService.create({
             ...dto,
@@ -96,4 +100,6 @@ export class AuthService {
             refresh_token: rt,
         };
     }
+
+    
 }
