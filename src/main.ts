@@ -1,10 +1,13 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { PrismaClient } from '@prisma/client';
+import { ValidationPipe } from '@nestjs/common';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   app.enableCors();
+  app.useGlobalPipes(new ValidationPipe({ whitelist: true }));
+
 
   await app.listen(process.env.PORT ?? 3000);
 
@@ -12,7 +15,7 @@ async function bootstrap() {
 
   async function main() {
     await prisma.$connect();
-    console.log('✅ Connected to PostgreSQL via Prisma' , process.env.PORT);
+    console.log('✅ Connected to PostgreSQL via Prisma', process.env.PORT);
     await prisma.$disconnect();
   }
 

@@ -7,9 +7,18 @@ import { UsersModule } from './users/users.module';
 import { PrismaModule } from './prisma/prisma.module';
 import { JwtAuthGuard } from './common/guards/jwt-auth.guard';
 import { ConfigModule } from './config/config.module';
+import { CampaignsModule } from './campaigns/campaigns.module';
+import { ScheduleModule } from '@nestjs/schedule';
 
 @Module({
-  imports: [ConfigModule, PrismaModule, AuthModule, UsersModule],
+  imports: [
+    ConfigModule,
+    PrismaModule,
+    AuthModule,
+    UsersModule,
+    CampaignsModule,
+    ScheduleModule.forRoot()
+  ],
   controllers: [AppController],
   providers: [
     AppService
