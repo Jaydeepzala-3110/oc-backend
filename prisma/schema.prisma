@@ -70,10 +70,24 @@ model Participation {
   submissionUrl     String?
   submittedAt       DateTime?
   lastMetricsSync   DateTime?
-  campaign          Campaign  @relation(fields: [campaignId], references: [id])
-  clipper           Users     @relation(fields: [clipperId], references: [id])
+
+  reels    Reel[]
+  campaign Campaign @relation(fields: [campaignId], references: [id])
+  clipper  Users    @relation(fields: [clipperId], references: [id])
 
   @@map("participations")
+}
+
+model Reel {
+  id              Int           @id @default(autoincrement())
+  url             String
+  participationId Int
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+  status          String        @default("PENDING") // PENDING, VERIFIED, REJECTED
+  participation   Participation @relation(fields: [participationId], references: [id])
+
+  @@map("reels")
 }
 
 model UserStats {

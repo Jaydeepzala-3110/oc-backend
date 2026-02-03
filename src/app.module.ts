@@ -9,6 +9,7 @@ import { JwtAuthGuard } from './common/guards/jwt-auth.guard';
 import { ConfigModule } from './config/config.module';
 import { CampaignsModule } from './campaigns/campaigns.module';
 import { ScheduleModule } from '@nestjs/schedule';
+import { ReelsModule } from './reels/reels.module';
 
 @Module({
   imports: [
@@ -17,6 +18,7 @@ import { ScheduleModule } from '@nestjs/schedule';
     AuthModule,
     UsersModule,
     CampaignsModule,
+    ReelsModule,
     ScheduleModule.forRoot()
   ],
   controllers: [AppController],

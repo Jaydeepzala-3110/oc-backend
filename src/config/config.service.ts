@@ -21,7 +21,7 @@ export class ConfigService {
 
     // JWT Expiration Times
     get jwtAccessExpiration(): string {
-        return this.get('JWT_ACCESS_EXPIRATION', '15m');
+        return this.get('JWT_ACCESS_EXPIRATION', '3d');
     }
 
     get jwtRefreshExpiration(): string {
