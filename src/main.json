@@ -1,0 +1,2115 @@
+{
+    "success": true,
+    "data": {
+        "campaigns": [
+            {
+                "id": "0b6d10ab-97f4-4866-8429-0b6672c950d7",
+                "name": "CS2Skin.com [TRITON]",
+                "description": "✅ Allowed :\nClips from the Content Folder only! CS2Skin branding on video + logo added!\n\n📁 Content Folder :\nhttps://www.youtube.com/watch?v=AblAOGtKMR4\n\n📋 Must Add Logo :\nhttps://drive.google.com/drive/folders/1--HRtyV9tirReynVrlF69yDNlnughEug?usp=sharing\n\n👇 Clipster Standard Logo Requirements :\nhttps://www.notion.so/Clipster-Logo-Guidelines-2e64a057b8c981a595a1c656a8194dc5?source=copy_link",
+                "max_earnings": "10000",
+                "max_earnings_per_user": "4000",
+                "max_earnings_per_submission": "2000",
+                "rate_per_one_thousand_views": "2",
+                "thumbnail_url": "https://static.clipcdn.com/campaigns/icons/2026-04-08T21-46-54.113Z-linked-2Xddhf8P.jpg",
+                "status": "CAMPAIGN_STATUS_ACTIVE",
+                "type": "CAMPAIGN_TYPE_CLIPPING",
+                "category": "CAMPAIGN_CATEGORY_ENTERTAINMENT",
+                "created_by_entity": "PLATFORM_STAFF",
+                "require_sound_usage": false,
+                "is_popular": false,
+                "is_discord_exclusive": false,
+                "disable_dashboard_submissions": false,
+                "content_type": "CAMPAIGN_CONTENT_TYPE_VIDEO",
+                "guidelines": [
+                    {
+                        "kind": "DO",
+                        "content": "POST CONTENT FROM THE [CONTENT FOLDER](https://www.youtube.com/watch?v=AblAOGtKMR4)"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "CS2SKIN ORGANICALLY VISIBLE + LOGO ADDED [LOGO](https://drive.google.com/drive/folders/1--HRtyV9tirReynVrlF69yDNlnughEug?usp=sharing)"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "7s MINIMUM LENGTH"
+                    },
+                    {
+                        "kind": "DONT",
+                        "content": "LOW QUALITY / SPAM"
+                    }
+                ],
+                "minimum_views_for_approval": 1069,
+                "minimum_views_for_earnings": 1069,
+                "max_submission_count_per_social_media_account": 100,
+                "minimum_views_for_submission": null,
+                "minimum_followers": null,
+                "minimum_submission_duration_seconds": 7,
+                "minimum_engagement_percentage": 0.2,
+                "external_discord_guild_id": "1463865146664550435",
+                "ends_at": "2026-06-30T00:00:00Z",
+                "post_examples": [],
+                "sounds": [],
+                "allowed_platforms": [
+                    "SOCIAL_MEDIA_PLATFORM_YOUTUBE",
+                    "SOCIAL_MEDIA_PLATFORM_TIKTOK",
+                    "SOCIAL_MEDIA_PLATFORM_X",
+                    "SOCIAL_MEDIA_PLATFORM_INSTAGRAM"
+                ],
+                "tags": [
+                    "CLIPPING"
+                ],
+                "niche_restrictions_enabled": true,
+                "niche_data": {
+                    "niches": [
+                        "GAMING"
+                    ],
+                    "subniches": []
+                },
+                "caption_requirements": {
+                    "required_tags": []
+                },
+                "statistics": {
+                    "pending_submissions": 0,
+                    "pending_submission_views": 0,
+                    "ready_for_payout_submissions": 0,
+                    "total_views": 7792309,
+                    "non_rejected_view_count": 0,
+                    "total_submissions": 0,
+                    "total_approved": 0,
+                    "total_rejected": 0,
+                    "non_rejected_submissions": 0,
+                    "creator_count": 0,
+                    "approved_earnings": "42.31",
+                    "potential_earnings": "1158.89",
+                    "eligible_view_count": 0,
+                    "eligible_like_count": 0,
+                    "eligible_comment_count": 0,
+                    "eligible_share_count": 0,
+                    "eligible_save_count": 0,
+                    "engagement_percentage": null
+                },
+                "rate_per_million_views": "2000",
+                "discord_invite_url": "https://discord.gg/9DeMXmAuY7",
+                "geo_restrictions_enabled": false,
+                "geo_rules": []
+            },
+            {
+                "id": "f3583f92-9b7a-49e2-8ff2-4b67eaf5efa8",
+                "name": "BestPlay [CLIPPING]",
+                "description": "✅ Allowed :\nRepost ready to post content provided in the folder\nCreate unique self-made content with the footage provided\n\n📁Brief :\nhttps://app.notion.com/p/Best-Play-Technical-specification-1-new-3714a057b8c982d5a92c019ef29462fb?source=copy_link\n\n📋Requirements :\nUse correct description mentioned in the brief\nTag official account\n\n\n📢 Join Discord for more Information \u0026 Support!",
+                "max_earnings": "15000",
+                "max_earnings_per_user": "5000",
+                "max_earnings_per_submission": "1500",
+                "rate_per_one_thousand_views": "1.5",
+                "thumbnail_url": "https://static.clipcdn.com/campaigns/icons/2026-06-04T13-30-36.638Z-unnamed--5-.jpg",
+                "status": "CAMPAIGN_STATUS_ACTIVE",
+                "type": "CAMPAIGN_TYPE_CLIPPING",
+                "category": "CAMPAIGN_CATEGORY_OTHER",
+                "created_by_entity": "PLATFORM_STAFF",
+                "require_sound_usage": false,
+                "is_popular": false,
+                "is_discord_exclusive": false,
+                "disable_dashboard_submissions": false,
+                "content_type": "CAMPAIGN_CONTENT_TYPE_ALL",
+                "guidelines": [
+                    {
+                        "kind": "DO",
+                        "content": "MUST READ BRIEF -\u003e [BRIEF](https://app.notion.com/p/Best-Play-Technical-specification-1-new-3714a057b8c982d5a92c019ef29462fb?source=copy_link)"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "TAG OFFICIAL ACCOUNT IN THE VIDEO DESCRIPTION"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "USE CORRECT DESCRIPTION - MENTIONED IN THE BRIEF"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "REPOST READY TO POST VIDEOS OR CREATE NEW ONES WITH FOOTAGE PROVIDED"
+                    }
+                ],
+                "minimum_views_for_approval": 1060,
+                "minimum_views_for_earnings": 1069,
+                "max_submission_count_per_social_media_account": 75,
+                "minimum_views_for_submission": null,
+                "minimum_followers": null,
+                "minimum_submission_duration_seconds": null,
+                "minimum_engagement_percentage": 0.2,
+                "external_discord_guild_id": "1382426598300581959",
+                "ends_at": "2026-07-05T00:00:00Z",
+                "post_examples": [
+                    {
+                        "public_url": "https://www.tiktok.com/@omoti_26/video/7518139596803247416",
+                        "source_url": "https://cdn.clipster.gg/example-posts/b32cbe75-9081-4a52-b540-b00852d36c87"
+                    },
+                    {
+                        "public_url": "https://www.tiktok.com/@.levelup.queen/video/7571535899511753992",
+                        "source_url": "https://cdn.clipster.gg/example-posts/a09e6bfa-d723-49d9-bda3-1652803b3ca4"
+                    }
+                ],
+                "sounds": [],
+                "allowed_platforms": [
+                    "SOCIAL_MEDIA_PLATFORM_TIKTOK",
+                    "SOCIAL_MEDIA_PLATFORM_YOUTUBE",
+                    "SOCIAL_MEDIA_PLATFORM_INSTAGRAM"
+                ],
+                "tags": [],
+                "niche_restrictions_enabled": false,
+                "niche_data": {
+                    "niches": [],
+                    "subniches": []
+                },
+                "caption_requirements": {
+                    "required_tags": []
+                },
+                "statistics": {
+                    "pending_submissions": 0,
+                    "pending_submission_views": 0,
+                    "ready_for_payout_submissions": 0,
+                    "total_views": 79918,
+                    "non_rejected_view_count": 0,
+                    "total_submissions": 0,
+                    "total_approved": 0,
+                    "total_rejected": 0,
+                    "non_rejected_submissions": 0,
+                    "creator_count": 0,
+                    "approved_earnings": "0.00",
+                    "potential_earnings": "95.73",
+                    "eligible_view_count": 0,
+                    "eligible_like_count": 0,
+                    "eligible_comment_count": 0,
+                    "eligible_share_count": 0,
+                    "eligible_save_count": 0,
+                    "engagement_percentage": null
+                },
+                "rate_per_million_views": "1500",
+                "discord_invite_url": "https://discord.gg/Bjcq28ThNt",
+                "geo_restrictions_enabled": false,
+                "geo_rules": []
+            },
+            {
+                "id": "11a6edae-4224-489e-b27c-5fef3b3bc6b4",
+                "name": "MedalTV [CLIPPING]",
+                "description": "✅ Allowed : \nOnly use Clip from the Content Folder!\n\n📁 Content Folder :\nhttps://f.io/t1NRXw7d\nhook examples: https://docs.google.com/document/d/1iRjj--N_wqUNmV-iLKe9RUPF_-uYB1BHTKtWRBO6Jbg/edit?usp=sharing\n\n\n📋 Content Requirements :\nTrailer should have a size of at least 50% of the whole video\nDirect repost - repost the trailer 1:1 and add captions\nSplit screen – trailer on top, streamer reaction on the bottom\n\n📌 Requirements:\nTrailer must be visible the whole time\nThe trailer must be played for at least 12 seconds \nAdd Outro at the end of your video: https://f.io/qcsfM5US",
+                "max_earnings": "5000",
+                "max_earnings_per_user": "2000",
+                "max_earnings_per_submission": "1500",
+                "rate_per_one_thousand_views": "1.5",
+                "thumbnail_url": "https://static.clipcdn.com/campaigns/11a6edae-4224-489e-b27c-5fef3b3bc6b4/icon.jpg",
+                "status": "CAMPAIGN_STATUS_ACTIVE",
+                "type": "CAMPAIGN_TYPE_CLIPPING",
+                "category": "CAMPAIGN_CATEGORY_GAMING",
+                "created_by_entity": "PLATFORM_STAFF",
+                "require_sound_usage": false,
+                "is_popular": false,
+                "is_discord_exclusive": false,
+                "disable_dashboard_submissions": false,
+                "content_type": "CAMPAIGN_CONTENT_TYPE_VIDEO",
+                "guidelines": [
+                    {
+                        "kind": "DO",
+                        "content": "USE TRAILER IN EVERY VIDEO -\u003e [TRAILER](https://f.io/t1NRXw7d)"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "FORMATS: REPOST FULL TRAILER, SPLIT SCREEN STREAMER REACTION"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "THE TRAILER VIDEO HAS TO BE FOR AT LEAST 12 SECONDS "
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "THE TRAILER HAS TO VISIBLE THE WHOLE TIME \u0026 BE AT LEAST 50% SIZE OF THE VIDEO"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "ADD OUTRO AT THE END OF YOUR VIDEO -\u003e [OUTRO](https://f.io/qcsfM5US)"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "HOOK EXAMPLES TO USE -\u003e [HOOKS](https://docs.google.com/document/d/1iRjj--N_wqUNmV-iLKe9RUPF_-uYB1BHTKtWRBO6Jbg/edit?usp=sharing)"
+                    }
+                ],
+                "minimum_views_for_approval": 1069,
+                "minimum_views_for_earnings": 1060,
+                "max_submission_count_per_social_media_account": 50,
+                "minimum_views_for_submission": 0,
+                "minimum_followers": 0,
+                "minimum_submission_duration_seconds": 12,
+                "minimum_engagement_percentage": 0.2,
+                "external_discord_guild_id": "1407440024882118677",
+                "ends_at": "2026-06-27T00:00:00Z",
+                "post_examples": [],
+                "sounds": [],
+                "allowed_platforms": [
+                    "SOCIAL_MEDIA_PLATFORM_TIKTOK",
+                    "SOCIAL_MEDIA_PLATFORM_INSTAGRAM",
+                    "SOCIAL_MEDIA_PLATFORM_YOUTUBE"
+                ],
+                "tags": [],
+                "niche_restrictions_enabled": false,
+                "niche_data": {
+                    "niches": [],
+                    "subniches": []
+                },
+                "caption_requirements": {
+                    "required_tags": []
+                },
+                "statistics": {
+                    "pending_submissions": 0,
+                    "pending_submission_views": 0,
+                    "ready_for_payout_submissions": 0,
+                    "total_views": 1977980,
+                    "non_rejected_view_count": 0,
+                    "total_submissions": 0,
+                    "total_approved": 0,
+                    "total_rejected": 0,
+                    "non_rejected_submissions": 0,
+                    "creator_count": 0,
+                    "approved_earnings": "64.63",
+                    "potential_earnings": "472.49",
+                    "eligible_view_count": 0,
+                    "eligible_like_count": 0,
+                    "eligible_comment_count": 0,
+                    "eligible_share_count": 0,
+                    "eligible_save_count": 0,
+                    "engagement_percentage": null
+                },
+                "rate_per_million_views": "1500",
+                "discord_invite_url": "https://discord.gg/saVw5tQYVb",
+                "geo_restrictions_enabled": false,
+                "geo_rules": []
+            },
+            {
+                "id": "9e410386-3441-4627-9970-473bcc4f03f5",
+                "name": "WoT Heat [CLIPPING] 4",
+                "description": "📋 Brief [MUST READ FIRST!]:\nhttps://www.notion.so/WoT-Heat-Technical-specification-3-UGC-6904a057b8c98201859081abadc79732?source=copy_link\n\n✅ Allowed:\n- Streamer reactions (split screen), UGC Reaction + CG trailer, Slideshow\n- English Content only\n- Always add the correct description mentioned in the brief\n- Tag the official account\n- You can find ready to post videos in the brief",
+                "max_earnings": "6000",
+                "max_earnings_per_user": "2500",
+                "max_earnings_per_submission": "1500",
+                "rate_per_one_thousand_views": "1.5",
+                "thumbnail_url": "https://static.clipcdn.com/campaigns/icons/2026-04-08T21-43-52.155Z-image-png",
+                "status": "CAMPAIGN_STATUS_ACTIVE",
+                "type": "CAMPAIGN_TYPE_CLIPPING",
+                "category": "CAMPAIGN_CATEGORY_GAMING",
+                "created_by_entity": "PLATFORM_STAFF",
+                "require_sound_usage": false,
+                "is_popular": false,
+                "is_discord_exclusive": false,
+                "disable_dashboard_submissions": false,
+                "content_type": "CAMPAIGN_CONTENT_TYPE_ALL",
+                "guidelines": [
+                    {
+                        "kind": "DO",
+                        "content": "STREAMER REACTIONS (SPLIT SCREEN), UGC REACTIONS + CG TRAILER, SLIDESHOW"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "ENGLISH CONTENT "
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "TAG OFFICIAL ACCOUNT UNDER EVERY VIDEO"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "ALWAYS ADD CORRECT DESCRIPTION -\u003e FIND IN [BRIEF](https://www.notion.so/WoT-Heat-Technical-specification-3-UGC-6904a057b8c98201859081abadc79732?source=copy_link)"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "READY TO POST CONTENT + INSTRUCTIONS -\u003e [BRIEF](https://www.notion.so/WoT-Heat-Technical-specification-3-UGC-6904a057b8c98201859081abadc79732?source=copy_link)"
+                    }
+                ],
+                "minimum_views_for_approval": 1069,
+                "minimum_views_for_earnings": 1069,
+                "max_submission_count_per_social_media_account": 100,
+                "minimum_views_for_submission": null,
+                "minimum_followers": null,
+                "minimum_submission_duration_seconds": null,
+                "minimum_engagement_percentage": 0.2,
+                "external_discord_guild_id": "1407440024882118677",
+                "ends_at": "2026-07-16T00:00:00Z",
+                "post_examples": [
+                    {
+                        "public_url": "https://drive.google.com/file/d/1QCYboh5WPsFMaiLh-R1XJ3XBEbDoXKam",
+                        "source_url": "https://cdn.clipster.gg/example-posts/d6dd38ce-fb98-44eb-9e83-438ad1f1146a"
+                    }
+                ],
+                "sounds": [],
+                "allowed_platforms": [
+                    "SOCIAL_MEDIA_PLATFORM_TIKTOK",
+                    "SOCIAL_MEDIA_PLATFORM_YOUTUBE",
+                    "SOCIAL_MEDIA_PLATFORM_INSTAGRAM"
+                ],
+                "tags": [],
+                "niche_restrictions_enabled": false,
+                "niche_data": {
+                    "niches": [],
+                    "subniches": []
+                },
+                "caption_requirements": {
+                    "required_tags": []
+                },
+                "statistics": {
+                    "pending_submissions": 0,
+                    "pending_submission_views": 0,
+                    "ready_for_payout_submissions": 0,
+                    "total_views": 2725313,
+                    "non_rejected_view_count": 0,
+                    "total_submissions": 0,
+                    "total_approved": 0,
+                    "total_rejected": 0,
+                    "non_rejected_submissions": 0,
+                    "creator_count": 0,
+                    "approved_earnings": "210.93",
+                    "potential_earnings": "1988.89",
+                    "eligible_view_count": 0,
+                    "eligible_like_count": 0,
+                    "eligible_comment_count": 0,
+                    "eligible_share_count": 0,
+                    "eligible_save_count": 0,
+                    "engagement_percentage": null
+                },
+                "rate_per_million_views": "1500",
+                "discord_invite_url": "https://discord.gg/saVw5tQYVb",
+                "geo_restrictions_enabled": false,
+                "geo_rules": []
+            },
+            {
+                "id": "f36a7f80-c161-481d-91df-22258949a453",
+                "name": "GossipDrop [CLIPPING] 2",
+                "description": "MUST READ BRIEF -\u003e [BRIEF](https://www.notion.so/ugcninja/Draft-video-GossipDrop-Creator-Guidelines-35d918452151801885abd908ffcc2573",
+                "max_earnings": "1000",
+                "max_earnings_per_user": "1000",
+                "max_earnings_per_submission": "1000",
+                "rate_per_one_thousand_views": "1.5",
+                "thumbnail_url": "https://static.clipcdn.com/campaigns/icons/2026-04-08T22-09-19.536Z-image-png",
+                "status": "CAMPAIGN_STATUS_ACTIVE",
+                "type": "CAMPAIGN_TYPE_CLIPPING",
+                "category": "CAMPAIGN_CATEGORY_OTHER",
+                "created_by_entity": "PLATFORM_STAFF",
+                "require_sound_usage": false,
+                "is_popular": false,
+                "is_discord_exclusive": false,
+                "disable_dashboard_submissions": false,
+                "content_type": "CAMPAIGN_CONTENT_TYPE_VIDEO",
+                "guidelines": [
+                    {
+                        "kind": "DO",
+                        "content": "CLEARLY FEATURE THE APP"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "INCLUDE CORRECT CAPTION"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "MUST READ BRIEF -\u003e [BRIEF](https://www.notion.so/ugcninja/Draft-video-GossipDrop-Creator-Guidelines-35d918452151801885abd908ffcc2573)"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "INCLUDE LOGO"
+                    }
+                ],
+                "minimum_views_for_approval": 1069,
+                "minimum_views_for_earnings": 1069,
+                "max_submission_count_per_social_media_account": 50,
+                "minimum_views_for_submission": null,
+                "minimum_followers": null,
+                "minimum_submission_duration_seconds": null,
+                "minimum_engagement_percentage": 0.2,
+                "external_discord_guild_id": "1382426598300581959",
+                "ends_at": "2026-06-12T00:00:00Z",
+                "post_examples": [],
+                "sounds": [],
+                "allowed_platforms": [
+                    "SOCIAL_MEDIA_PLATFORM_TIKTOK",
+                    "SOCIAL_MEDIA_PLATFORM_INSTAGRAM"
+                ],
+                "tags": [],
+                "niche_restrictions_enabled": false,
+                "niche_data": {
+                    "niches": [],
+                    "subniches": []
+                },
+                "caption_requirements": {
+                    "required_tags": []
+                },
+                "statistics": {
+                    "pending_submissions": 0,
+                    "pending_submission_views": 0,
+                    "ready_for_payout_submissions": 0,
+                    "total_views": 1581196,
+                    "non_rejected_view_count": 0,
+                    "total_submissions": 0,
+                    "total_approved": 0,
+                    "total_rejected": 0,
+                    "non_rejected_submissions": 0,
+                    "creator_count": 0,
+                    "approved_earnings": "0.00",
+                    "potential_earnings": "883.63",
+                    "eligible_view_count": 0,
+                    "eligible_like_count": 0,
+                    "eligible_comment_count": 0,
+                    "eligible_share_count": 0,
+                    "eligible_save_count": 0,
+                    "engagement_percentage": null
+                },
+                "rate_per_million_views": "1500",
+                "discord_invite_url": "https://discord.gg/Bjcq28ThNt",
+                "geo_restrictions_enabled": false,
+                "geo_rules": []
+            },
+            {
+                "id": "449a5079-a0c5-4da0-b4a7-5b0a2f710052",
+                "name": "MitchJones [CLIPPING]",
+                "description": "✅ Allowed :\nOriginal self-edited clips focused on MitchJones\nAdd @MitchJones watermark on every video\n\n🚫 Not Allowed :\nReuploading or stealing is strictly prohibited\nNon-MitchJones content\n\n📁 Content Folder :\nhttps://drive.google.com/drive/folders/1JVJ_SaDcri-rHpPd2lqn3cSZvfIpwozg?usp=drive_link\nOther clips you can use: https://twitchtracker.com/mitchjones/clips#20250501-20260526\n\n📁 Watermark :\nhttps://f.io/1R5LdTOZ",
+                "max_earnings": "1875",
+                "max_earnings_per_user": "1500",
+                "max_earnings_per_submission": "1250",
+                "rate_per_one_thousand_views": "1.25",
+                "thumbnail_url": "https://static.clipcdn.com/campaigns/icons/2026-05-26T15-58-05.699Z-mitch.jpg",
+                "status": "CAMPAIGN_STATUS_ACTIVE",
+                "type": "CAMPAIGN_TYPE_CLIPPING",
+                "category": "CAMPAIGN_CATEGORY_OTHER",
+                "created_by_entity": "PLATFORM_STAFF",
+                "require_sound_usage": false,
+                "is_popular": false,
+                "is_discord_exclusive": false,
+                "disable_dashboard_submissions": false,
+                "content_type": "CAMPAIGN_CONTENT_TYPE_VIDEO",
+                "guidelines": [
+                    {
+                        "kind": "DO",
+                        "content": "ORIGINAL SELF-EDITED CLIPS FOCUS ON MITCHJONES"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "ADD @MITCHJONES WATERMARK TO EVERY VIDEO - [WATERMARK](https://f.io/1R5LdTOZ)"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "CONTENT FOLDER WITH CLIPS YOU CAN USE -\u003e [FOLDER](https://drive.google.com/drive/folders/1JVJ_SaDcri-rHpPd2lqn3cSZvfIpwozg?usp=drive_link)"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "YOU CAN ALSO USE CLIPS FROM HERE -\u003e [CLIPS](https://twitchtracker.com/mitchjones/clips#20250501-20260526)"
+                    },
+                    {
+                        "kind": "DONT",
+                        "content": "REUPLOADING; STEALING"
+                    },
+                    {
+                        "kind": "DONT",
+                        "content": "NON-MITCHJONES CONTENT"
+                    }
+                ],
+                "minimum_views_for_approval": 1069,
+                "minimum_views_for_earnings": 1069,
+                "max_submission_count_per_social_media_account": 100,
+                "minimum_views_for_submission": null,
+                "minimum_followers": null,
+                "minimum_submission_duration_seconds": null,
+                "minimum_engagement_percentage": 0.2,
+                "external_discord_guild_id": "1407440024882118677",
+                "ends_at": "2026-06-19T00:00:00Z",
+                "post_examples": [],
+                "sounds": [],
+                "allowed_platforms": [
+                    "SOCIAL_MEDIA_PLATFORM_TIKTOK",
+                    "SOCIAL_MEDIA_PLATFORM_YOUTUBE",
+                    "SOCIAL_MEDIA_PLATFORM_INSTAGRAM",
+                    "SOCIAL_MEDIA_PLATFORM_X"
+                ],
+                "tags": [],
+                "niche_restrictions_enabled": false,
+                "niche_data": {
+                    "niches": [],
+                    "subniches": []
+                },
+                "caption_requirements": {
+                    "required_tags": []
+                },
+                "statistics": {
+                    "pending_submissions": 0,
+                    "pending_submission_views": 0,
+                    "ready_for_payout_submissions": 0,
+                    "total_views": 857336,
+                    "non_rejected_view_count": 0,
+                    "total_submissions": 0,
+                    "total_approved": 0,
+                    "total_rejected": 0,
+                    "non_rejected_submissions": 0,
+                    "creator_count": 0,
+                    "approved_earnings": "0.00",
+                    "potential_earnings": "852.05",
+                    "eligible_view_count": 0,
+                    "eligible_like_count": 0,
+                    "eligible_comment_count": 0,
+                    "eligible_share_count": 0,
+                    "eligible_save_count": 0,
+                    "engagement_percentage": null
+                },
+                "rate_per_million_views": "1250",
+                "discord_invite_url": "https://discord.gg/saVw5tQYVb",
+                "geo_restrictions_enabled": false,
+                "geo_rules": []
+            },
+            {
+                "id": "a7dab5b6-18ab-4ede-96a4-81214bca3e62",
+                "name": "Madonna - Film [CLIPPING]",
+                "description": "📋 Brief [MUST READ FIRST!]:\nhttps://docs.google.com/document/d/1B4GASe57E4C2akHvPtCUmIgnzrlItrPs-_df4m3oLb8/edit?usp=sharing\n\n‼️ CONTENT TO CLIP:\nhttps://f.io/Cd67yTvd\n\n✅ Allowed niches / pages:\nStandard Clipping - English Language\n\n10s Minimum Clip Length",
+                "max_earnings": "8000",
+                "max_earnings_per_user": "1000",
+                "max_earnings_per_submission": "600",
+                "rate_per_one_thousand_views": "1",
+                "thumbnail_url": "https://static.clipcdn.com/campaigns/a7dab5b6-18ab-4ede-96a4-81214bca3e62/icon.jpg",
+                "status": "CAMPAIGN_STATUS_ACTIVE",
+                "type": "CAMPAIGN_TYPE_CLIPPING",
+                "category": "CAMPAIGN_CATEGORY_OTHER",
+                "created_by_entity": "PLATFORM_STAFF",
+                "require_sound_usage": false,
+                "is_popular": false,
+                "is_discord_exclusive": false,
+                "disable_dashboard_submissions": false,
+                "content_type": "CAMPAIGN_CONTENT_TYPE_VIDEO",
+                "guidelines": [
+                    {
+                        "kind": "DO",
+                        "content": "STANDARD CLIPPING"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "10s MINIMUM CLIP LENGTH"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "ENGLISH LANGUAGE"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "MUST READ → [BRIEF](https://docs.google.com/document/d/1B4GASe57E4C2akHvPtCUmIgnzrlItrPs-_df4m3oLb8/edit?usp=sharing)"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "CLIP THIS → [CONTENT TO CLIP](https://f.io/Cd67yTvd)"
+                    }
+                ],
+                "minimum_views_for_approval": 2000,
+                "minimum_views_for_earnings": 1070,
+                "max_submission_count_per_social_media_account": 50,
+                "minimum_views_for_submission": null,
+                "minimum_followers": null,
+                "minimum_submission_duration_seconds": null,
+                "minimum_engagement_percentage": 0.2,
+                "external_discord_guild_id": "1407440024882118677",
+                "ends_at": "2026-08-22T00:00:00Z",
+                "post_examples": [
+                    {
+                        "public_url": "https://www.tiktok.com/@dazed/video/7649067695262027030",
+                        "source_url": "https://cdn.clipster.gg/example-posts/073aa9be-a833-49d2-b235-16da6bfd098d"
+                    },
+                    {
+                        "public_url": "https://www.tiktok.com/@numero.netherlands/video/7649094334561652000",
+                        "source_url": "https://cdn.clipster.gg/example-posts/53cf5e2c-897e-4ea0-b847-7b2ecc83afb1"
+                    }
+                ],
+                "sounds": [
+                    {
+                        "id": "227e8cbd-f83c-471b-9b3e-a679fcb4f80e",
+                        "sound_platform": "SOCIAL_MEDIA_PLATFORM_TIKTOK",
+                        "sound_id": "7648096914659772433",
+                        "sound_name": "Danceteria - Madonna",
+                        "sound_url": "",
+                        "created_at": "2026-06-09T18:22:05.269956Z",
+                        "updated_at": "2026-06-09T18:22:05.269956Z"
+                    },
+                    {
+                        "id": "1f62883a-f0f0-4dbe-a5c7-1f82cfb14a4c",
+                        "sound_platform": "SOCIAL_MEDIA_PLATFORM_INSTAGRAM",
+                        "sound_id": "1337203848476406",
+                        "sound_name": "Danceteria - Madonna",
+                        "sound_url": "",
+                        "created_at": "2026-06-09T18:22:05.269956Z",
+                        "updated_at": "2026-06-09T18:22:05.269956Z"
+                    }
+                ],
+                "allowed_platforms": [
+                    "SOCIAL_MEDIA_PLATFORM_TIKTOK",
+                    "SOCIAL_MEDIA_PLATFORM_YOUTUBE",
+                    "SOCIAL_MEDIA_PLATFORM_INSTAGRAM"
+                ],
+                "tags": [],
+                "niche_restrictions_enabled": false,
+                "niche_data": {
+                    "niches": [],
+                    "subniches": []
+                },
+                "caption_requirements": {
+                    "required_tags": []
+                },
+                "statistics": {
+                    "pending_submissions": 0,
+                    "pending_submission_views": 0,
+                    "ready_for_payout_submissions": 0,
+                    "total_views": 568468,
+                    "non_rejected_view_count": 0,
+                    "total_submissions": 0,
+                    "total_approved": 0,
+                    "total_rejected": 0,
+                    "non_rejected_submissions": 0,
+                    "creator_count": 0,
+                    "approved_earnings": "0.00",
+                    "potential_earnings": "491.75",
+                    "eligible_view_count": 0,
+                    "eligible_like_count": 0,
+                    "eligible_comment_count": 0,
+                    "eligible_share_count": 0,
+                    "eligible_save_count": 0,
+                    "engagement_percentage": null
+                },
+                "rate_per_million_views": "1000",
+                "discord_invite_url": "https://discord.gg/saVw5tQYVb",
+                "geo_restrictions_enabled": false,
+                "geo_rules": []
+            },
+            {
+                "id": "0d616f89-2e86-421d-ade0-6efb9a27e257",
+                "name": "Aespa - LEMONADE [CLIPPING]",
+                "description": "📋 Brief [MUST READ FIRST!]:\nhttps://docs.google.com/document/d/1faeTzCVDRhhnCaQHb4WgII0lV9iOkMfc1Tbj4IbGYRI/edit?usp=sharing\n\n‼️ CONTENT TO CLIP:\n1. Becky G Remix → https://f.io/rWUe0A0h\n2. Zedd Remix → https://f.io/Nkj7UQYk\n3. Marlon Remix → https://f.io/dhvd_haU\n\n✅ Allowed niches / pages:\nstandard clipping\n\nTAG THE SOUND ON YOUR CLIPS: (1% volume minimum)\nBecky G Remix\nTikTok: https://www.tiktok.com/music/LEMONADE-feat-Becky-G-7635587089284171793\nInstagram: https://www.instagram.com/reels/audio/980884207962421\nZedd Remix\nTikTok: https://www.tiktok.com/music/LEMONADE-Zedd-Remix-7644129812160268304\nInstagram: https://www.instagram.com/reels/audio/1304187634580350\nMarlon Remix\nTikTok: https://www.tiktok.com/music/LEMONADE-Marlon-Hoffstadt-Extended-Mix-7644131477009893392\nInstagram: https://www.instagram.com/reels/audio/1604462898349493\n\n10 seconds minimum clip length",
+                "max_earnings": "6400",
+                "max_earnings_per_user": "1000",
+                "max_earnings_per_submission": "900",
+                "rate_per_one_thousand_views": "1",
+                "thumbnail_url": "https://static.clipcdn.com/campaigns/0d616f89-2e86-421d-ade0-6efb9a27e257/icon.jpg",
+                "status": "CAMPAIGN_STATUS_ACTIVE",
+                "type": "CAMPAIGN_TYPE_CLIPPING",
+                "category": "CAMPAIGN_CATEGORY_OTHER",
+                "created_by_entity": "PLATFORM_STAFF",
+                "require_sound_usage": false,
+                "is_popular": false,
+                "is_discord_exclusive": false,
+                "disable_dashboard_submissions": false,
+                "content_type": "CAMPAIGN_CONTENT_TYPE_VIDEO",
+                "guidelines": [
+                    {
+                        "kind": "DO",
+                        "content": "STANDARD CLIPPING"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "10s MINIMUM CLIP LENGTH"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "ENGLISH LANGUAGE"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "MUST READ → [BRIEF](https://docs.google.com/document/d/1faeTzCVDRhhnCaQHb4WgII0lV9iOkMfc1Tbj4IbGYRI/edit?usp=sharing)"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "CLIP THIS → [BECKY G REMIX](https://f.io/rWUe0A0h) / [ZEDD REMIX](https://f.io/Nkj7UQYk) / [MARLON REMIX](https://f.io/dhvd_haU)"
+                    }
+                ],
+                "minimum_views_for_approval": 2000,
+                "minimum_views_for_earnings": 1069,
+                "max_submission_count_per_social_media_account": 50,
+                "minimum_views_for_submission": 0,
+                "minimum_followers": 0,
+                "minimum_submission_duration_seconds": null,
+                "minimum_engagement_percentage": null,
+                "external_discord_guild_id": "1407440024882118677",
+                "ends_at": "2026-11-20T00:00:00Z",
+                "post_examples": [
+                    {
+                        "public_url": "https://www.tiktok.com/@stanloona562/video/7646609085676260626",
+                        "source_url": "https://cdn.clipster.gg/example-posts/f8e51aaa-55ed-466c-bdf8-6487f163df95"
+                    },
+                    {
+                        "public_url": "https://vm.tiktok.com/ZGdHK7YSs",
+                        "source_url": "https://cdn.clipster.gg/example-posts/cfe1660f-086e-4436-98f8-4cf772f6aed5"
+                    },
+                    {
+                        "public_url": "https://www.tiktok.com/@djdaddytranced/video/7646690805280804110",
+                        "source_url": "https://cdn.clipster.gg/example-posts/a649edb8-a595-4a96-ad36-5e86154e626e"
+                    }
+                ],
+                "sounds": [
+                    {
+                        "id": "99673cf4-9dff-431e-bcb8-ff21707448b7",
+                        "sound_platform": "SOCIAL_MEDIA_PLATFORM_INSTAGRAM",
+                        "sound_id": "980884207962421",
+                        "sound_name": "LEMONADE - Aespa (BeckyG remix)",
+                        "sound_url": "",
+                        "created_at": "2026-06-06T08:16:18.385864Z",
+                        "updated_at": "2026-06-06T08:16:18.385864Z"
+                    },
+                    {
+                        "id": "ef5d8874-466f-44e2-8334-2941e736569c",
+                        "sound_platform": "SOCIAL_MEDIA_PLATFORM_INSTAGRAM",
+                        "sound_id": "1604462898349493",
+                        "sound_name": "LEMONADE - Aespa (Marlon remix)",
+                        "sound_url": "",
+                        "created_at": "2026-06-06T08:16:18.385864Z",
+                        "updated_at": "2026-06-06T08:16:18.385864Z"
+                    },
+                    {
+                        "id": "4ce8be7a-c888-4b2b-9040-0c0c0342e5f0",
+                        "sound_platform": "SOCIAL_MEDIA_PLATFORM_INSTAGRAM",
+                        "sound_id": "1304187634580350",
+                        "sound_name": "LEMONADE - Aespa (ZEDD remix)",
+                        "sound_url": "",
+                        "created_at": "2026-06-06T08:16:18.385864Z",
+                        "updated_at": "2026-06-06T08:16:18.385864Z"
+                    },
+                    {
+                        "id": "625b8f08-7490-496f-8fb3-fc132067e88b",
+                        "sound_platform": "SOCIAL_MEDIA_PLATFORM_TIKTOK",
+                        "sound_id": "7635587089284171793",
+                        "sound_name": "LEMONADE - Aespa (BeckyG remix)",
+                        "sound_url": "https://www.tiktok.com/music/-7635587089284171793",
+                        "created_at": "2026-06-06T08:16:18.385864Z",
+                        "updated_at": "2026-06-06T08:16:18.385864Z"
+                    },
+                    {
+                        "id": "68d3ef9a-7afa-4564-b321-a7deb8cdf411",
+                        "sound_platform": "SOCIAL_MEDIA_PLATFORM_TIKTOK",
+                        "sound_id": "7644129812160268304",
+                        "sound_name": "LEMONADE - Aespa (ZEDD remix)",
+                        "sound_url": "https://www.tiktok.com/music/-7644129812160268304",
+                        "created_at": "2026-06-06T08:16:18.385864Z",
+                        "updated_at": "2026-06-06T08:16:18.385864Z"
+                    },
+                    {
+                        "id": "032768c8-905c-44a2-bb29-8f341adb833a",
+                        "sound_platform": "SOCIAL_MEDIA_PLATFORM_TIKTOK",
+                        "sound_id": "7644131477009893392",
+                        "sound_name": "LEMONADE - Aespa (Marlon remix)",
+                        "sound_url": "https://www.tiktok.com/music/-7644131477009893392",
+                        "created_at": "2026-06-06T08:16:18.385864Z",
+                        "updated_at": "2026-06-06T08:16:18.385864Z"
+                    }
+                ],
+                "allowed_platforms": [
+                    "SOCIAL_MEDIA_PLATFORM_TIKTOK",
+                    "SOCIAL_MEDIA_PLATFORM_INSTAGRAM"
+                ],
+                "tags": [],
+                "niche_restrictions_enabled": false,
+                "niche_data": {
+                    "niches": [],
+                    "subniches": []
+                },
+                "caption_requirements": {
+                    "required_tags": []
+                },
+                "statistics": {
+                    "pending_submissions": 0,
+                    "pending_submission_views": 0,
+                    "ready_for_payout_submissions": 0,
+                    "total_views": 6523534,
+                    "non_rejected_view_count": 0,
+                    "total_submissions": 0,
+                    "total_approved": 0,
+                    "total_rejected": 0,
+                    "non_rejected_submissions": 0,
+                    "creator_count": 0,
+                    "approved_earnings": "665.70",
+                    "potential_earnings": "4164.53",
+                    "eligible_view_count": 0,
+                    "eligible_like_count": 0,
+                    "eligible_comment_count": 0,
+                    "eligible_share_count": 0,
+                    "eligible_save_count": 0,
+                    "engagement_percentage": null
+                },
+                "rate_per_million_views": "1000",
+                "discord_invite_url": "https://discord.gg/saVw5tQYVb",
+                "geo_restrictions_enabled": false,
+                "geo_rules": []
+            },
+            {
+                "id": "76d144f7-5452-490c-a466-701e26c4f048",
+                "name": "Travie McCoy [CLIPPING]",
+                "description": "📋 Brief [MUST READ FIRST!]:\nhttps://docs.google.com/document/d/1uUVnNwS605AEWi1bNNUAjXyjTi2KniwPhaHLb0SJnoE/edit?usp=sharing\n\n‼️ CONTENT TO CLIP:\nhttps://f.io/NIHD1-Um\n\n✅ Allowed niches / pages:\nstandard clipping\n\n10 seconds minimum clip length",
+                "max_earnings": "2400",
+                "max_earnings_per_user": "1000",
+                "max_earnings_per_submission": "900",
+                "rate_per_one_thousand_views": "1",
+                "thumbnail_url": "https://static.clipcdn.com/campaigns/76d144f7-5452-490c-a466-701e26c4f048/icon.jpg",
+                "status": "CAMPAIGN_STATUS_ACTIVE",
+                "type": "CAMPAIGN_TYPE_CLIPPING",
+                "category": "CAMPAIGN_CATEGORY_OTHER",
+                "created_by_entity": "PLATFORM_STAFF",
+                "require_sound_usage": false,
+                "is_popular": false,
+                "is_discord_exclusive": false,
+                "disable_dashboard_submissions": false,
+                "content_type": "CAMPAIGN_CONTENT_TYPE_VIDEO",
+                "guidelines": [
+                    {
+                        "kind": "DO",
+                        "content": "STANDARD CLIPPING"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "10s MINIMUM CLIP LENGTH"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "MUST READ → [BRIEF](https://docs.google.com/document/d/1uUVnNwS605AEWi1bNNUAjXyjTi2KniwPhaHLb0SJnoE/edit?usp=sharing)"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "CLIP THIS → [CONTENT TO CLIP](https://f.io/NIHD1-Um) pre made clips inside btw (super easy)"
+                    }
+                ],
+                "minimum_views_for_approval": 2000,
+                "minimum_views_for_earnings": 1070,
+                "max_submission_count_per_social_media_account": 50,
+                "minimum_views_for_submission": null,
+                "minimum_followers": null,
+                "minimum_submission_duration_seconds": null,
+                "minimum_engagement_percentage": null,
+                "external_discord_guild_id": "1407440024882118677",
+                "ends_at": "2026-10-04T00:00:00Z",
+                "post_examples": [
+                    {
+                        "public_url": "https://www.tiktok.com/@moreorlesswithjess/video/7608373548410965262",
+                        "source_url": "https://cdn.clipster.gg/example-posts/2e4775a6-b2b6-4594-8bb7-e8be26457c0c"
+                    },
+                    {
+                        "public_url": "https://www.tiktok.com/@ughitsjoe/video/7544480379231554846",
+                        "source_url": "https://cdn.clipster.gg/example-posts/a2b96d27-ef41-4e79-a2fc-472ad101f59e"
+                    },
+                    {
+                        "public_url": "https://www.tiktok.com/@gowithelmo/video/7547019163563330846",
+                        "source_url": "https://cdn.clipster.gg/example-posts/f096b33d-5d92-4345-ae2b-e82a2c9dfaed"
+                    }
+                ],
+                "sounds": [],
+                "allowed_platforms": [
+                    "SOCIAL_MEDIA_PLATFORM_TIKTOK",
+                    "SOCIAL_MEDIA_PLATFORM_YOUTUBE",
+                    "SOCIAL_MEDIA_PLATFORM_INSTAGRAM"
+                ],
+                "tags": [],
+                "niche_restrictions_enabled": false,
+                "niche_data": {
+                    "niches": [],
+                    "subniches": []
+                },
+                "caption_requirements": {
+                    "required_tags": []
+                },
+                "statistics": {
+                    "pending_submissions": 0,
+                    "pending_submission_views": 0,
+                    "ready_for_payout_submissions": 0,
+                    "total_views": 4126406,
+                    "non_rejected_view_count": 0,
+                    "total_submissions": 0,
+                    "total_approved": 0,
+                    "total_rejected": 0,
+                    "non_rejected_submissions": 0,
+                    "creator_count": 0,
+                    "approved_earnings": "837.49",
+                    "potential_earnings": "1670.11",
+                    "eligible_view_count": 0,
+                    "eligible_like_count": 0,
+                    "eligible_comment_count": 0,
+                    "eligible_share_count": 0,
+                    "eligible_save_count": 0,
+                    "engagement_percentage": null
+                },
+                "rate_per_million_views": "1000",
+                "discord_invite_url": "https://discord.gg/saVw5tQYVb",
+                "geo_restrictions_enabled": false,
+                "geo_rules": []
+            },
+            {
+                "id": "89197e7a-36fd-4be3-8468-e4ef9b1e85c6",
+                "name": "Pork Soda - tomtord [CLIPPING]",
+                "description": "📋 Brief [MUST READ FIRST!]:\nhttps://docs.google.com/document/d/1djbj1h0noHLVCwoVZb1VD8n1tqJanp9Jgor41H_RGuY/edit?usp=sharing\n\n‼️ CONTENT TO CLIP:\nhttps://f.io/_KENwfVC\n\nNEW CONTENT ADDED: https://f.io/R9YWiOb0\n\n✅ Allowed niches / pages:\nstandard clipping\n\n10 seconds minimum clip length",
+                "max_earnings": "2690",
+                "max_earnings_per_user": "1000",
+                "max_earnings_per_submission": "900",
+                "rate_per_one_thousand_views": "1",
+                "thumbnail_url": "https://static.clipcdn.com/campaigns/89197e7a-36fd-4be3-8468-e4ef9b1e85c6/icon.jpg",
+                "status": "CAMPAIGN_STATUS_ACTIVE",
+                "type": "CAMPAIGN_TYPE_CLIPPING",
+                "category": "CAMPAIGN_CATEGORY_OTHER",
+                "created_by_entity": "PLATFORM_STAFF",
+                "require_sound_usage": false,
+                "is_popular": false,
+                "is_discord_exclusive": false,
+                "disable_dashboard_submissions": false,
+                "content_type": "CAMPAIGN_CONTENT_TYPE_VIDEO",
+                "guidelines": [
+                    {
+                        "kind": "DO",
+                        "content": "STANDARD CLIPPING"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "10s MINIMUM CLIP LENGTH"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "ENGLISH LANGUAGE"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "MUST READ → [BRIEF](https://docs.google.com/document/d/1djbj1h0noHLVCwoVZb1VD8n1tqJanp9Jgor41H_RGuY/edit?usp=sharing)"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "CLIP THIS → [CONTENT TO CLIP](https://f.io/_KENwfVC)"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "NEW CONTENT ADDED [CAN ALSO CLIP THIS](https://f.io/R9YWiOb0)"
+                    }
+                ],
+                "minimum_views_for_approval": 2000,
+                "minimum_views_for_earnings": 1069,
+                "max_submission_count_per_social_media_account": 50,
+                "minimum_views_for_submission": 0,
+                "minimum_followers": 0,
+                "minimum_submission_duration_seconds": null,
+                "minimum_engagement_percentage": null,
+                "external_discord_guild_id": "1407440024882118677",
+                "ends_at": "2026-11-20T00:00:00Z",
+                "post_examples": [
+                    {
+                        "public_url": "https://www.tiktok.com/@vexin.nakahara/video/7646795507683183892",
+                        "source_url": "https://cdn.clipster.gg/example-posts/4c2f823c-b1b9-4715-a034-a51dfeb6efb4"
+                    },
+                    {
+                        "public_url": "https://www.tiktok.com/@silverrz__/video/7646796407650782494",
+                        "source_url": "https://cdn.clipster.gg/example-posts/b6547a0c-82e2-4271-8e4c-04bed5c1326b"
+                    }
+                ],
+                "sounds": [
+                    {
+                        "id": "434bf199-3b27-4af8-be4a-ed6b51d50fdf",
+                        "sound_platform": "SOCIAL_MEDIA_PLATFORM_INSTAGRAM",
+                        "sound_id": "418162748657451",
+                        "sound_name": "Pork Soda - Glass Animals",
+                        "sound_url": "",
+                        "created_at": "2026-06-05T10:55:45.712158Z",
+                        "updated_at": "2026-06-05T10:55:45.712158Z"
+                    },
+                    {
+                        "id": "50fd2aff-df0f-48e0-b656-4fb45989e8a2",
+                        "sound_platform": "SOCIAL_MEDIA_PLATFORM_TIKTOK",
+                        "sound_id": "242451012580667392",
+                        "sound_name": "Pork Soda - Glass Animals",
+                        "sound_url": "https://vm.tiktok.com/ZN92abtqWFRVY-lB8X4/",
+                        "created_at": "2026-06-05T10:55:45.712158Z",
+                        "updated_at": "2026-06-05T10:55:45.712158Z"
+                    },
+                    {
+                        "id": "57943f15-b8ec-4bdb-8247-941adcf01398",
+                        "sound_platform": "SOCIAL_MEDIA_PLATFORM_YOUTUBE",
+                        "sound_id": "333",
+                        "sound_name": "Pork Soda - Glass Animals",
+                        "sound_url": "https://youtube.com/source/lV9JvMToiK8/shorts?si=1qZSB-4ZC5_nbmMf",
+                        "created_at": "2026-06-05T10:55:45.712158Z",
+                        "updated_at": "2026-06-05T10:55:45.712158Z"
+                    }
+                ],
+                "allowed_platforms": [
+                    "SOCIAL_MEDIA_PLATFORM_TIKTOK",
+                    "SOCIAL_MEDIA_PLATFORM_INSTAGRAM",
+                    "SOCIAL_MEDIA_PLATFORM_YOUTUBE"
+                ],
+                "tags": [],
+                "niche_restrictions_enabled": false,
+                "niche_data": {
+                    "niches": [],
+                    "subniches": []
+                },
+                "caption_requirements": {
+                    "required_tags": []
+                },
+                "statistics": {
+                    "pending_submissions": 0,
+                    "pending_submission_views": 0,
+                    "ready_for_payout_submissions": 0,
+                    "total_views": 4661285,
+                    "non_rejected_view_count": 0,
+                    "total_submissions": 0,
+                    "total_approved": 0,
+                    "total_rejected": 0,
+                    "non_rejected_submissions": 0,
+                    "creator_count": 0,
+                    "approved_earnings": "862.76",
+                    "potential_earnings": "2507.40",
+                    "eligible_view_count": 0,
+                    "eligible_like_count": 0,
+                    "eligible_comment_count": 0,
+                    "eligible_share_count": 0,
+                    "eligible_save_count": 0,
+                    "engagement_percentage": null
+                },
+                "rate_per_million_views": "1000",
+                "discord_invite_url": "https://discord.gg/saVw5tQYVb",
+                "geo_restrictions_enabled": false,
+                "geo_rules": []
+            },
+            {
+                "id": "ba6c62fc-32da-4152-8d21-e23e68a08fa9",
+                "name": "Shortcat [CLIPPING]",
+                "description": "⚠️ AT LEAST 30% TIER 1 COUNTRIES ⚠️\n\n✅ Allowed :\nRepost content provided in the folder\nCreate unique self-made content with the footage provided or with the app itself\n\n🚫 Not Allowed :\nPosting from accounts in unrelated niches (sports, cars, fitness, etc.). Your account must fit the app's niche - anime, manga, animation. If it doesn't, make a new one for this campaign.\n\n📁Content Folder :\nhttps://drive.google.com/drive/folders/1Hg3gXslw8RJNsKG16ppNTvNqjbu7LtIr?usp=sharing\n\n📋Requirements :\nAdd CTA in the description: [CTA's](https://docs.google.com/document/d/1JdfmkFRhtdjZuMLZ5CJz1UYwtdQbgYXca0GkFBm9p3Q/edit?usp=sharing)\n\n📢 Join Discord for more Information \u0026 Support!",
+                "max_earnings": "2400",
+                "max_earnings_per_user": "2000",
+                "max_earnings_per_submission": "1000",
+                "rate_per_one_thousand_views": "1",
+                "thumbnail_url": "https://static.clipcdn.com/campaigns/icons/2026-06-02T17-48-12.745Z-1777980782304.jpg",
+                "status": "CAMPAIGN_STATUS_ACTIVE",
+                "type": "CAMPAIGN_TYPE_CLIPPING",
+                "category": "CAMPAIGN_CATEGORY_OTHER",
+                "created_by_entity": "PLATFORM_STAFF",
+                "require_sound_usage": false,
+                "is_popular": false,
+                "is_discord_exclusive": false,
+                "disable_dashboard_submissions": false,
+                "content_type": "CAMPAIGN_CONTENT_TYPE_VIDEO",
+                "guidelines": [
+                    {
+                        "kind": "DO",
+                        "content": "REPOST READY MADE VIDEOS FROM THE CONTENT FOLDER -\u003e [FOLDER](https://drive.google.com/drive/folders/1Hg3gXslw8RJNsKG16ppNTvNqjbu7LtIr?usp=sharing)"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "CREATE SELF-MADE CONTENT WITH THE PROVIDED FOOTAGE OR WITH THE APP ITSELF -\u003e [CONTENT FOOTAGE](https://drive.google.com/drive/folders/1Hg3gXslw8RJNsKG16ppNTvNqjbu7LtIr?usp=sharing)"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "ADD A CTA IN THE VIDEO DESCRIPTION -\u003e [CTA's](https://docs.google.com/document/d/1JdfmkFRhtdjZuMLZ5CJz1UYwtdQbgYXca0GkFBm9p3Q/edit?usp=sharing)"
+                    },
+                    {
+                        "kind": "DONT",
+                        "content": "POSTING FROM ACCOUNTS IN UNRELATED NICHES"
+                    }
+                ],
+                "minimum_views_for_approval": 1069,
+                "minimum_views_for_earnings": 1069,
+                "max_submission_count_per_social_media_account": 50,
+                "minimum_views_for_submission": null,
+                "minimum_followers": null,
+                "minimum_submission_duration_seconds": null,
+                "minimum_engagement_percentage": 0.2,
+                "external_discord_guild_id": "1407440024882118677",
+                "ends_at": "2026-07-03T00:00:00Z",
+                "post_examples": [],
+                "sounds": [],
+                "allowed_platforms": [
+                    "SOCIAL_MEDIA_PLATFORM_TIKTOK",
+                    "SOCIAL_MEDIA_PLATFORM_YOUTUBE",
+                    "SOCIAL_MEDIA_PLATFORM_INSTAGRAM"
+                ],
+                "tags": [],
+                "niche_restrictions_enabled": false,
+                "niche_data": {
+                    "niches": [],
+                    "subniches": []
+                },
+                "caption_requirements": {
+                    "required_tags": []
+                },
+                "statistics": {
+                    "pending_submissions": 0,
+                    "pending_submission_views": 0,
+                    "ready_for_payout_submissions": 0,
+                    "total_views": 1272876,
+                    "non_rejected_view_count": 0,
+                    "total_submissions": 0,
+                    "total_approved": 0,
+                    "total_rejected": 0,
+                    "non_rejected_submissions": 0,
+                    "creator_count": 0,
+                    "approved_earnings": "0.00",
+                    "potential_earnings": "755.39",
+                    "eligible_view_count": 0,
+                    "eligible_like_count": 0,
+                    "eligible_comment_count": 0,
+                    "eligible_share_count": 0,
+                    "eligible_save_count": 0,
+                    "engagement_percentage": null
+                },
+                "rate_per_million_views": "1000",
+                "discord_invite_url": "https://discord.gg/saVw5tQYVb",
+                "geo_restrictions_enabled": false,
+                "geo_rules": []
+            },
+            {
+                "id": "8024847f-73f9-458c-b0a1-f79de0260b80",
+                "name": "BOYNEXTDOOR [CLIPPING]",
+                "description": "📋 Brief [MUST READ FIRST!]:\nhttps://docs.google.com/document/d/1FPnpYpJ9JXx198zc-klewFQpn0OiVpAlvMIAhnqCQHE/edit?usp=sharing\n\n‼️ CONTENT TO CLIP:\nhttps://f.io/xnTeZFWH\n\n✅ Allowed niches / pages:\nClip / Repost the vids inside the content folder or create memes with on screen text with it\nHigh effort edits about the vid allowed as well\n\nSongs to tag in you post (at 1% volume minimum)\nTikTok: https://www.tiktok.com/t/ZT923SJdMALha-7sKXw/\nInstagram: https://www.instagram.com/reels/audio/976810358594909\nYT-Shorts: https://youtu.be/zGsj0fDHB_s\n\n10 seconds minimum clip length, no split screen",
+                "max_earnings": "2400",
+                "max_earnings_per_user": "1000",
+                "max_earnings_per_submission": "500",
+                "rate_per_one_thousand_views": "1",
+                "thumbnail_url": "https://static.clipcdn.com/campaigns/8024847f-73f9-458c-b0a1-f79de0260b80/icon.jpg",
+                "status": "CAMPAIGN_STATUS_ACTIVE",
+                "type": "CAMPAIGN_TYPE_CLIPPING",
+                "category": "CAMPAIGN_CATEGORY_MUSIC",
+                "created_by_entity": "PLATFORM_STAFF",
+                "require_sound_usage": false,
+                "is_popular": false,
+                "is_discord_exclusive": false,
+                "disable_dashboard_submissions": false,
+                "content_type": "CAMPAIGN_CONTENT_TYPE_VIDEO",
+                "guidelines": [
+                    {
+                        "kind": "DO",
+                        "content": "MUST READ → [BRIEF](https://docs.google.com/document/d/1FPnpYpJ9JXx198zc-klewFQpn0OiVpAlvMIAhnqCQHE/edit?usp=sharing)"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "CLIP THIS → [CONTENT TO CLIP](https://f.io/xnTeZFWH)"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "CLIP / REPOST THE VIDS FROM CONTENT FOLDER / CREATE MEMES WITH ON SCREEN TEXT"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "HIGH EFFORT EDITS AROUND THE MUSIC VID"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "10S MINIMUM CLIP LENGTH"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "NO SPLIT SCREEN (EXCPET FAKE REACTIONS)"
+                    }
+                ],
+                "minimum_views_for_approval": 2000,
+                "minimum_views_for_earnings": 1070,
+                "max_submission_count_per_social_media_account": 50,
+                "minimum_views_for_submission": null,
+                "minimum_followers": null,
+                "minimum_submission_duration_seconds": null,
+                "minimum_engagement_percentage": 0.2,
+                "external_discord_guild_id": "1407440024882118677",
+                "ends_at": "2026-08-29T00:00:00Z",
+                "post_examples": [
+                    {
+                        "public_url": "https://www.tiktok.com/@miusfavgirll/video/7648997197056429333",
+                        "source_url": "https://cdn.clipster.gg/example-posts/ac1079cd-324e-4429-b135-4e3b413a7124"
+                    },
+                    {
+                        "public_url": "https://www.tiktok.com/@bonekdoluvr/video/7649075834782797078",
+                        "source_url": "https://cdn.clipster.gg/example-posts/cfd96c36-2703-47d4-a082-2b10b4ce7a6b"
+                    },
+                    {
+                        "public_url": "https://www.tiktok.com/@reuyvo/video/7649025173735214357",
+                        "source_url": "https://cdn.clipster.gg/example-posts/8e0749ed-311c-4267-ae56-338a85757797"
+                    }
+                ],
+                "sounds": [
+                    {
+                        "id": "cd5dada3-4d38-4740-ab42-8c6e310457e1",
+                        "sound_platform": "SOCIAL_MEDIA_PLATFORM_INSTAGRAM",
+                        "sound_id": "976810358594909",
+                        "sound_name": "VIRAL - BOYNEXTDOOR",
+                        "sound_url": "https://www.instagram.com/reels/audio/976810358594909",
+                        "created_at": "2026-06-09T08:19:07.083246Z",
+                        "updated_at": "2026-06-09T08:19:07.083246Z"
+                    },
+                    {
+                        "id": "d037c9b0-9565-44ff-aadf-19215865e8d3",
+                        "sound_platform": "SOCIAL_MEDIA_PLATFORM_TIKTOK",
+                        "sound_id": "7645273968526166033",
+                        "sound_name": "VIRAL - BOYNEXTDOOR",
+                        "sound_url": "https://www.tiktok.com/t/ZT923SJdMALha-7sKXw/",
+                        "created_at": "2026-06-09T08:19:07.083246Z",
+                        "updated_at": "2026-06-09T08:19:07.083246Z"
+                    },
+                    {
+                        "id": "18d99566-428d-48a8-be5d-b5dd08dce5dc",
+                        "sound_platform": "SOCIAL_MEDIA_PLATFORM_YOUTUBE",
+                        "sound_id": "11",
+                        "sound_name": "VIRAL - BOYNEXTDOOR",
+                        "sound_url": "https://youtu.be/zGsj0fDHB_s",
+                        "created_at": "2026-06-09T08:19:07.083246Z",
+                        "updated_at": "2026-06-09T08:19:07.083246Z"
+                    }
+                ],
+                "allowed_platforms": [
+                    "SOCIAL_MEDIA_PLATFORM_TIKTOK",
+                    "SOCIAL_MEDIA_PLATFORM_INSTAGRAM",
+                    "SOCIAL_MEDIA_PLATFORM_YOUTUBE"
+                ],
+                "tags": [],
+                "niche_restrictions_enabled": false,
+                "niche_data": {
+                    "niches": [],
+                    "subniches": []
+                },
+                "caption_requirements": {
+                    "required_tags": []
+                },
+                "statistics": {
+                    "pending_submissions": 0,
+                    "pending_submission_views": 0,
+                    "ready_for_payout_submissions": 0,
+                    "total_views": 185447,
+                    "non_rejected_view_count": 0,
+                    "total_submissions": 0,
+                    "total_approved": 0,
+                    "total_rejected": 0,
+                    "non_rejected_submissions": 0,
+                    "creator_count": 0,
+                    "approved_earnings": "0.00",
+                    "potential_earnings": "118.82",
+                    "eligible_view_count": 0,
+                    "eligible_like_count": 0,
+                    "eligible_comment_count": 0,
+                    "eligible_share_count": 0,
+                    "eligible_save_count": 0,
+                    "engagement_percentage": null
+                },
+                "rate_per_million_views": "1000",
+                "discord_invite_url": "https://discord.gg/saVw5tQYVb",
+                "geo_restrictions_enabled": false,
+                "geo_rules": []
+            },
+            {
+                "id": "d27b2d30-9a6e-49bc-bce5-8749744c827e",
+                "name": "Caleb Gordon - Rolling Loud [CLIPPING]",
+                "description": "📋 Brief [MUST READ FIRST!]:\nhttps://docs.google.com/document/d/1eBtDq1Mf6Bj_mZW9L2XT0pR2kx5hYU12xgUVdgy00vw/edit?usp=sharing\n\n‼️ CONTENT TO CLIP:\nhttps://drive.google.com/drive/folders/1woHr9LN8s2HWKsMb1yX3BfDNDkHalCAU?usp=sharing\n\nhttps://www.youtube.com/watch?v=3DRdFFglwU4\n\n✅ Allowed niches / pages:\nstandard clipping - english language\n\n10 seconds minimum clip length",
+                "max_earnings": "1600",
+                "max_earnings_per_user": "900",
+                "max_earnings_per_submission": "700",
+                "rate_per_one_thousand_views": "0.9",
+                "thumbnail_url": "https://static.clipcdn.com/campaigns/d27b2d30-9a6e-49bc-bce5-8749744c827e/icon.jpg",
+                "status": "CAMPAIGN_STATUS_ACTIVE",
+                "type": "CAMPAIGN_TYPE_CLIPPING",
+                "category": "CAMPAIGN_CATEGORY_OTHER",
+                "created_by_entity": "PLATFORM_STAFF",
+                "require_sound_usage": false,
+                "is_popular": false,
+                "is_discord_exclusive": false,
+                "disable_dashboard_submissions": false,
+                "content_type": "CAMPAIGN_CONTENT_TYPE_VIDEO",
+                "guidelines": [
+                    {
+                        "kind": "DO",
+                        "content": "STANDARD CLIPPING"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "10s MINIMUM CLIP LENGTH"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "ENGLISH LANGUAGE"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "MUST READ → [BRIEF](https://docs.google.com/document/d/1eBtDq1Mf6Bj_mZW9L2XT0pR2kx5hYU12xgUVdgy00vw/edit?usp=sharing)"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "CLIP THIS → [CONTENT TO CLIP](https://drive.google.com/drive/folders/1woHr9LN8s2HWKsMb1yX3BfDNDkHalCAU?usp=sharing) / [STREAM](https://www.youtube.com/watch?v=3DRdFFglwU4)"
+                    }
+                ],
+                "minimum_views_for_approval": 2000,
+                "minimum_views_for_earnings": 1070,
+                "max_submission_count_per_social_media_account": 50,
+                "minimum_views_for_submission": null,
+                "minimum_followers": null,
+                "minimum_submission_duration_seconds": null,
+                "minimum_engagement_percentage": 0.2,
+                "external_discord_guild_id": "1407440024882118677",
+                "ends_at": "2026-08-09T00:00:00Z",
+                "post_examples": [
+                    {
+                        "public_url": "https://www.instagram.com/reel/DYLPtVQuQ_Y",
+                        "source_url": "https://cdn.clipster.gg/example-posts/01f9bc3c-3ecb-4546-9849-ce93bcfc19db"
+                    },
+                    {
+                        "public_url": "https://www.instagram.com/reel/DYN-tFMuB6N",
+                        "source_url": "https://cdn.clipster.gg/example-posts/effb6982-7a27-4f3a-9728-9afc7d629c0a"
+                    },
+                    {
+                        "public_url": "https://www.instagram.com/reel/DYQWkLzuglI",
+                        "source_url": "https://cdn.clipster.gg/example-posts/7fe26274-4174-4093-a035-a3951dfe0f7e"
+                    }
+                ],
+                "sounds": [],
+                "allowed_platforms": [
+                    "SOCIAL_MEDIA_PLATFORM_TIKTOK",
+                    "SOCIAL_MEDIA_PLATFORM_YOUTUBE",
+                    "SOCIAL_MEDIA_PLATFORM_INSTAGRAM"
+                ],
+                "tags": [],
+                "niche_restrictions_enabled": false,
+                "niche_data": {
+                    "niches": [],
+                    "subniches": []
+                },
+                "caption_requirements": {
+                    "required_tags": []
+                },
+                "statistics": {
+                    "pending_submissions": 0,
+                    "pending_submission_views": 0,
+                    "ready_for_payout_submissions": 0,
+                    "total_views": 6563806,
+                    "non_rejected_view_count": 0,
+                    "total_submissions": 0,
+                    "total_approved": 0,
+                    "total_rejected": 0,
+                    "non_rejected_submissions": 0,
+                    "creator_count": 0,
+                    "approved_earnings": "589.09",
+                    "potential_earnings": "1049.77",
+                    "eligible_view_count": 0,
+                    "eligible_like_count": 0,
+                    "eligible_comment_count": 0,
+                    "eligible_share_count": 0,
+                    "eligible_save_count": 0,
+                    "engagement_percentage": null
+                },
+                "rate_per_million_views": "900",
+                "discord_invite_url": "https://discord.gg/saVw5tQYVb",
+                "geo_restrictions_enabled": false,
+                "geo_rules": []
+            },
+            {
+                "id": "0dd9e353-8c15-4f87-a804-68b63a95c696",
+                "name": "Nic Vans [CLIPPING]",
+                "description": "📋 Brief [MUST READ FIRST!]:\nhttps://docs.google.com/document/d/15LkaUB2KoEE0japqCPZXrkCvPqVC5X8eb_jyqrkLRY4/edit?usp=sharing\n\n‼️ CONTENT TO CLIP:\nhttps://www.youtube.com/watch?v=FvySnYwvjyw\n\n✅ Allowed niches / pages:\nstandard clipping - english language\n\n10 seconds minimum clip length",
+                "max_earnings": "1600",
+                "max_earnings_per_user": "1000",
+                "max_earnings_per_submission": "800",
+                "rate_per_one_thousand_views": "0.8",
+                "thumbnail_url": "https://static.clipcdn.com/campaigns/0dd9e353-8c15-4f87-a804-68b63a95c696/icon.jpg",
+                "status": "CAMPAIGN_STATUS_ACTIVE",
+                "type": "CAMPAIGN_TYPE_CLIPPING",
+                "category": "CAMPAIGN_CATEGORY_OTHER",
+                "created_by_entity": "PLATFORM_STAFF",
+                "require_sound_usage": false,
+                "is_popular": false,
+                "is_discord_exclusive": false,
+                "disable_dashboard_submissions": false,
+                "content_type": "CAMPAIGN_CONTENT_TYPE_VIDEO",
+                "guidelines": [
+                    {
+                        "kind": "DO",
+                        "content": "STANDARD CLIPPING"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "10s MINIMUM CLIP LENGTH"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "ENGLISH LANGUAGE"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "MUST READ → [BRIEF](https://docs.google.com/document/d/15LkaUB2KoEE0japqCPZXrkCvPqVC5X8eb_jyqrkLRY4/edit?usp=sharing)"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "CLIP THIS → [CONTENT TO CLIP](https://www.youtube.com/watch?v=FvySnYwvjyw)"
+                    }
+                ],
+                "minimum_views_for_approval": 2000,
+                "minimum_views_for_earnings": 1070,
+                "max_submission_count_per_social_media_account": 100,
+                "minimum_views_for_submission": null,
+                "minimum_followers": null,
+                "minimum_submission_duration_seconds": null,
+                "minimum_engagement_percentage": 0.2,
+                "external_discord_guild_id": "1407440024882118677",
+                "ends_at": "2026-08-30T00:00:00Z",
+                "post_examples": [
+                    {
+                        "public_url": "https://www.tiktok.com/@setlistwithcarter/video/7594928782855687454",
+                        "source_url": "https://cdn.clipster.gg/example-posts/7fe3f388-ae35-461b-b126-7e4d7631c040"
+                    },
+                    {
+                        "public_url": "https://www.tiktok.com/@nicolandriainfive5/video/7583190693502274829",
+                        "source_url": "https://cdn.clipster.gg/example-posts/545f7cab-04b2-44f4-855a-6539b624cad6"
+                    }
+                ],
+                "sounds": [],
+                "allowed_platforms": [
+                    "SOCIAL_MEDIA_PLATFORM_TIKTOK",
+                    "SOCIAL_MEDIA_PLATFORM_YOUTUBE",
+                    "SOCIAL_MEDIA_PLATFORM_INSTAGRAM"
+                ],
+                "tags": [],
+                "niche_restrictions_enabled": false,
+                "niche_data": {
+                    "niches": [],
+                    "subniches": []
+                },
+                "caption_requirements": {
+                    "required_tags": []
+                },
+                "statistics": {
+                    "pending_submissions": 0,
+                    "pending_submission_views": 0,
+                    "ready_for_payout_submissions": 0,
+                    "total_views": 2605060,
+                    "non_rejected_view_count": 0,
+                    "total_submissions": 0,
+                    "total_approved": 0,
+                    "total_rejected": 0,
+                    "non_rejected_submissions": 0,
+                    "creator_count": 0,
+                    "approved_earnings": "0.00",
+                    "potential_earnings": "1541.01",
+                    "eligible_view_count": 0,
+                    "eligible_like_count": 0,
+                    "eligible_comment_count": 0,
+                    "eligible_share_count": 0,
+                    "eligible_save_count": 0,
+                    "engagement_percentage": null
+                },
+                "rate_per_million_views": "800",
+                "discord_invite_url": "https://discord.gg/saVw5tQYVb",
+                "geo_restrictions_enabled": false,
+                "geo_rules": []
+            },
+            {
+                "id": "340f068b-3794-4c65-9219-6c76aa662fee",
+                "name": "Frank Sinatra - NYC Knicks [INSTAGRAM]",
+                "description": "📋 Requirements:\nPost quality Basketball vids \u0026 edits about the NYC Knicks using the song below\n\n✅ Allowed niches / pages:\nBasketball edits about the NYC Knicks only\nFocus on Knicks basketball clips/games/court side celebs\n\nYou can also repost these vids in the folder: https://f.io/YuhqI87F \n\n🚫 Not Allowed:\nonly niches above allowed, no other niche / basketball team\n\n📋 Content Requirements: english\nmust comment song name + like own comment!\nsong name: Frank Sinatra - Theme from New York, New York\n\n📁 Song link:\nhttps://www.instagram.com/reels/audio/915226515325271\n\n📁 Example Edits:\nhttps://www.instagram.com/reel/DZISGetJfAH\nhttps://www.tiktok.com/@mprodz.2/video/7644032836617456926\nhttps://www.tiktok.com/@yourlocaldumbass116/video/7646455495556943118",
+                "max_earnings": "1760",
+                "max_earnings_per_user": "300",
+                "max_earnings_per_submission": "250",
+                "rate_per_one_thousand_views": "0.5",
+                "thumbnail_url": "https://static.clipcdn.com/campaigns/340f068b-3794-4c65-9219-6c76aa662fee/icon.jpg",
+                "status": "CAMPAIGN_STATUS_ACTIVE",
+                "type": "CAMPAIGN_TYPE_CLIPPING",
+                "category": "CAMPAIGN_CATEGORY_MUSIC",
+                "created_by_entity": "PLATFORM_STAFF",
+                "require_sound_usage": true,
+                "is_popular": false,
+                "is_discord_exclusive": false,
+                "disable_dashboard_submissions": false,
+                "content_type": "CAMPAIGN_CONTENT_TYPE_VIDEO",
+                "guidelines": [
+                    {
+                        "kind": "DO",
+                        "content": "POST QUALITY BASKETBALL EDITS \u0026 VIDS ABOUT THE NYC KNICKS ONLY"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "POST KNICKS BASKETBALL CLIPS / GAMES / COURT SIDE CELEBS (MAKE SURE THE SONG IS IN FOCUS)"
+                    },
+                    {
+                        "kind": "DONT",
+                        "content": "ANY OTHER NICHES / OTHER BASKETBALL TEAMS NOT ALLOWED"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "ENGLISH LANGUAGE [MAKE SURE YOU TAG THE SOUND](https://www.instagram.com/reels/audio/915226515325271)"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "COMMENT SONG NAME + LIKE OWN COMMENT → song name: Frank Sinatra - Theme from New York, New York"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "CLIP THIS → [PRE MADE CLIPS - SUPER EASY](https://f.io/YuhqI87F)"
+                    }
+                ],
+                "minimum_views_for_approval": 2000,
+                "minimum_views_for_earnings": 1070,
+                "max_submission_count_per_social_media_account": 50,
+                "minimum_views_for_submission": null,
+                "minimum_followers": null,
+                "minimum_submission_duration_seconds": null,
+                "minimum_engagement_percentage": 0.2,
+                "external_discord_guild_id": "1407440024882118677",
+                "ends_at": "2026-08-16T00:00:00Z",
+                "post_examples": [
+                    {
+                        "public_url": "https://www.instagram.com/reel/DZISGetJfAH",
+                        "source_url": "https://cdn.clipster.gg/example-posts/b975ff87-8467-4fdf-8d91-188d7d7eeb33"
+                    },
+                    {
+                        "public_url": "https://www.tiktok.com/@mprodz.2/video/7644032836617456926",
+                        "source_url": "https://cdn.clipster.gg/example-posts/3b7016b8-20b8-4bb0-8be3-59cfcfe6dab3"
+                    },
+                    {
+                        "public_url": "https://www.tiktok.com/@yourlocaldumbass116/video/7646455495556943118",
+                        "source_url": "https://cdn.clipster.gg/example-posts/69e2e02d-5029-4f1e-9ad8-d8c12e407c3e"
+                    }
+                ],
+                "sounds": [
+                    {
+                        "id": "4eac0f0c-51cd-4c5c-bfbf-63a248362ab3",
+                        "sound_platform": "SOCIAL_MEDIA_PLATFORM_INSTAGRAM",
+                        "sound_id": "915226515325271",
+                        "sound_name": "Frank Sinatra - Theme from New York, New York",
+                        "sound_url": "",
+                        "created_at": "2026-06-09T09:49:04.487876Z",
+                        "updated_at": "2026-06-09T09:49:04.487876Z"
+                    }
+                ],
+                "allowed_platforms": [
+                    "SOCIAL_MEDIA_PLATFORM_INSTAGRAM"
+                ],
+                "tags": [],
+                "niche_restrictions_enabled": false,
+                "niche_data": {
+                    "niches": [],
+                    "subniches": []
+                },
+                "caption_requirements": {
+                    "required_tags": []
+                },
+                "statistics": {
+                    "pending_submissions": 0,
+                    "pending_submission_views": 0,
+                    "ready_for_payout_submissions": 0,
+                    "total_views": 644195,
+                    "non_rejected_view_count": 0,
+                    "total_submissions": 0,
+                    "total_approved": 0,
+                    "total_rejected": 0,
+                    "non_rejected_submissions": 0,
+                    "creator_count": 0,
+                    "approved_earnings": "0.00",
+                    "potential_earnings": "287.51",
+                    "eligible_view_count": 0,
+                    "eligible_like_count": 0,
+                    "eligible_comment_count": 0,
+                    "eligible_share_count": 0,
+                    "eligible_save_count": 0,
+                    "engagement_percentage": null
+                },
+                "rate_per_million_views": "500",
+                "discord_invite_url": "https://discord.gg/saVw5tQYVb",
+                "geo_restrictions_enabled": false,
+                "geo_rules": []
+            },
+            {
+                "id": "a4ef69e3-d592-4e20-9102-500d974ee3b3",
+                "name": "CS2Skin.com [BESTIA]",
+                "description": "✅ Allowed :\nPost Bestia CS2 Player Highlights, featuring the player overlays provided!\n\n📋 Requirements :\nCS2Skin.com Logo must be visible on Player Shirts at all times!\n\n📁 Player Models : \nhttps://drive.google.com/drive/folders/1twTnEGpzXLSLK8znXS4iiWtjfOP12mnf?usp=sharing\n\n👇 Join Discord for Support \u0026 More Details!",
+                "max_earnings": "15000",
+                "max_earnings_per_user": "7500",
+                "max_earnings_per_submission": "1000",
+                "rate_per_one_thousand_views": "0.5",
+                "thumbnail_url": "https://static.clipcdn.com/campaigns/icons/2026-06-02T20-51-42.174Z-cf1e5b9a-2ea8-4f03-928f-535028e891be.jpg",
+                "status": "CAMPAIGN_STATUS_ACTIVE",
+                "type": "CAMPAIGN_TYPE_CLIPPING",
+                "category": "CAMPAIGN_CATEGORY_GAMING",
+                "created_by_entity": "PLATFORM_STAFF",
+                "require_sound_usage": false,
+                "is_popular": false,
+                "is_discord_exclusive": false,
+                "disable_dashboard_submissions": false,
+                "content_type": "CAMPAIGN_CONTENT_TYPE_VIDEO",
+                "guidelines": [
+                    {
+                        "kind": "DO",
+                        "content": "POST BESTIA CS2 PLAYER HIGHLIGHTS"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "USE THE PROVIDED [PLAYER MODELS](https://drive.google.com/drive/folders/1twTnEGpzXLSLK8znXS4iiWtjfOP12mnf?usp=sharing)"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "PLAYER MODEL WITH CS2SKIN LOGO TO BE VISIBLE AT ALL TIMES"
+                    },
+                    {
+                        "kind": "DONT",
+                        "content": "POST LOW QUALITY / SPAM"
+                    }
+                ],
+                "minimum_views_for_approval": 5000,
+                "minimum_views_for_earnings": 1069,
+                "max_submission_count_per_social_media_account": 200,
+                "minimum_views_for_submission": null,
+                "minimum_followers": null,
+                "minimum_submission_duration_seconds": 6,
+                "minimum_engagement_percentage": 0.2,
+                "external_discord_guild_id": "1463865146664550435",
+                "ends_at": "2026-07-31T00:00:00Z",
+                "post_examples": [
+                    {
+                        "public_url": "https://drive.google.com/file/d/1CGmd3h1iy6hFwu_JkVTRGSCmlQ-gy_6Q",
+                        "source_url": "https://cdn.clipster.gg/example-posts/447a345a-6b54-437b-b631-d060b3912f7c"
+                    }
+                ],
+                "sounds": [],
+                "allowed_platforms": [
+                    "SOCIAL_MEDIA_PLATFORM_TIKTOK",
+                    "SOCIAL_MEDIA_PLATFORM_YOUTUBE",
+                    "SOCIAL_MEDIA_PLATFORM_INSTAGRAM",
+                    "SOCIAL_MEDIA_PLATFORM_X"
+                ],
+                "tags": [
+                    "CS2"
+                ],
+                "niche_restrictions_enabled": true,
+                "niche_data": {
+                    "niches": [
+                        "GAMING"
+                    ],
+                    "subniches": [
+                        "CS2"
+                    ]
+                },
+                "caption_requirements": {
+                    "required_tags": []
+                },
+                "statistics": {
+                    "pending_submissions": 0,
+                    "pending_submission_views": 0,
+                    "ready_for_payout_submissions": 0,
+                    "total_views": 21128361,
+                    "non_rejected_view_count": 0,
+                    "total_submissions": 0,
+                    "total_approved": 0,
+                    "total_rejected": 0,
+                    "non_rejected_submissions": 0,
+                    "creator_count": 0,
+                    "approved_earnings": "3519.52",
+                    "potential_earnings": "7987.28",
+                    "eligible_view_count": 0,
+                    "eligible_like_count": 0,
+                    "eligible_comment_count": 0,
+                    "eligible_share_count": 0,
+                    "eligible_save_count": 0,
+                    "engagement_percentage": null
+                },
+                "rate_per_million_views": "500",
+                "discord_invite_url": "https://discord.gg/9DeMXmAuY7",
+                "geo_restrictions_enabled": false,
+                "geo_rules": []
+            },
+            {
+                "id": "8a393b22-1d35-4bf0-8516-1aa27f7d1d4f",
+                "name": "Blast.tv [BRAWLSTARS]",
+                "description": "✅ Allowed:\nAny content from the Brawl Cup broadcast \u0026 event coverage! Focus on moments that showcase the scale, energy, and production quality of Brawl Esports.\n\n📋 Requirements:\nStage, crowd, or event atmosphere should be visible as often as possible.\nClips should instantly communicate scale and hype, even in short-form format.\n\n🎯 Campaign Goal:\nShow people how massive Brawl Esports really is. Viewers to recognize the production quality, crowd energy, and overall scale of the esport. Example On Screen Text :\n“Wait… Brawl Esports is actually insane 💀”\n“Why does this look like a Tier 1 esport 😭”\n“Didn’t realize Brawl esports was THIS big 👀”\n\n📁 VODS :\nhttps://www.youtube.com/watch?v=RxlvzA4ljA8\u0026pp=0gcJCQoLAYcqIYzv\nhttps://www.youtube.com/watch?v=7pSlz_4ERg0\nhttps://www.youtube.com/watch?v=KMmfUmZKoak\u0026t=7299s\n\n📢 Join Discord for more Information \u0026 Support!",
+                "max_earnings": "4000",
+                "max_earnings_per_user": "2000",
+                "max_earnings_per_submission": "1000",
+                "rate_per_one_thousand_views": "0.5",
+                "thumbnail_url": "https://static.clipcdn.com/campaigns/icons/2026-05-27T07-26-39.214Z-ChatGPT-Image-May-27--2026--10-26-24-AM.jpg",
+                "status": "CAMPAIGN_STATUS_ACTIVE",
+                "type": "CAMPAIGN_TYPE_CLIPPING",
+                "category": "CAMPAIGN_CATEGORY_GAMING",
+                "created_by_entity": "PLATFORM_STAFF",
+                "require_sound_usage": false,
+                "is_popular": false,
+                "is_discord_exclusive": false,
+                "disable_dashboard_submissions": false,
+                "content_type": "CAMPAIGN_CONTENT_TYPE_VIDEO",
+                "guidelines": [
+                    {
+                        "kind": "DO",
+                        "content": "POST ANY CONTENT FROM THE BRAWL CUP [EXAMPLE VOD](https://www.youtube.com/watch?v=RxlvzA4ljA8\u0026pp=0gcJCQoLAYcqIYzv)"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "FOCUS ON HYPE MOMENTS, CROWD SHOTS \u0026 ATMOSPHERE"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "USE SIMILAR ON SCREEN TEXT AS “Wait.. Brawl Esports is actually insane 💀”"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "POST FROM GAMING NICHE ACCOUNTS"
+                    },
+                    {
+                        "kind": "DONT",
+                        "content": "POST LOW QUALITY / SPAM"
+                    }
+                ],
+                "minimum_views_for_approval": 5000,
+                "minimum_views_for_earnings": 1069,
+                "max_submission_count_per_social_media_account": 100,
+                "minimum_views_for_submission": null,
+                "minimum_followers": null,
+                "minimum_submission_duration_seconds": 7,
+                "minimum_engagement_percentage": 0.2,
+                "external_discord_guild_id": "1509533178748993636",
+                "ends_at": "2026-06-30T00:00:00Z",
+                "post_examples": [],
+                "sounds": [],
+                "allowed_platforms": [
+                    "SOCIAL_MEDIA_PLATFORM_TIKTOK",
+                    "SOCIAL_MEDIA_PLATFORM_YOUTUBE",
+                    "SOCIAL_MEDIA_PLATFORM_INSTAGRAM"
+                ],
+                "tags": [
+                    "CLIPPING"
+                ],
+                "niche_restrictions_enabled": true,
+                "niche_data": {
+                    "niches": [
+                        "GAMING"
+                    ],
+                    "subniches": []
+                },
+                "caption_requirements": {
+                    "required_tags": []
+                },
+                "statistics": {
+                    "pending_submissions": 0,
+                    "pending_submission_views": 0,
+                    "ready_for_payout_submissions": 0,
+                    "total_views": 3987716,
+                    "non_rejected_view_count": 0,
+                    "total_submissions": 0,
+                    "total_approved": 0,
+                    "total_rejected": 0,
+                    "non_rejected_submissions": 0,
+                    "creator_count": 0,
+                    "approved_earnings": "1205.86",
+                    "potential_earnings": "1528.34",
+                    "eligible_view_count": 0,
+                    "eligible_like_count": 0,
+                    "eligible_comment_count": 0,
+                    "eligible_share_count": 0,
+                    "eligible_save_count": 0,
+                    "engagement_percentage": null
+                },
+                "rate_per_million_views": "500",
+                "discord_invite_url": "https://discord.gg/RK5mGweZJM",
+                "geo_restrictions_enabled": false,
+                "geo_rules": []
+            },
+            {
+                "id": "83515d8c-d985-4866-ad5b-4072aff40892",
+                "name": "Blast.tv [RLCS]",
+                "description": "✅ Allowed:\nAny Content from the RLCS Paris Major! You can focus on :\nWalkouts, Trophy lift, Indoor drone shots, Top moments \u0026 Big celebrations from Crowds and Players!\n\n📋 Requirements: \n7s Minimum Length \u0026 Use #RLCS\nAccounts must be Gaming Niche Related!\n\n📁 VODS :\nhttps://www.twitch.tv/rocketleague/videos?filter=archives\u0026sort=time\n\n📢 Join Discord for more Information \u0026 Support!",
+                "max_earnings": "4000",
+                "max_earnings_per_user": "2000",
+                "max_earnings_per_submission": "1000",
+                "rate_per_one_thousand_views": "0.5",
+                "thumbnail_url": "https://static.clipcdn.com/campaigns/icons/2026-05-27T07-24-39.111Z-ChatGPT-Image-May-27--2026--10-24-04-AM.jpg",
+                "status": "CAMPAIGN_STATUS_ACTIVE",
+                "type": "CAMPAIGN_TYPE_CLIPPING",
+                "category": "CAMPAIGN_CATEGORY_GAMING",
+                "created_by_entity": "PLATFORM_STAFF",
+                "require_sound_usage": false,
+                "is_popular": false,
+                "is_discord_exclusive": false,
+                "disable_dashboard_submissions": false,
+                "content_type": "CAMPAIGN_CONTENT_TYPE_VIDEO",
+                "guidelines": [
+                    {
+                        "kind": "DO",
+                        "content": "POST ANY RLCS PARIS MAJOR CLIPS"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "FOCUS ON HYPE CLIPS, PLAYER WALKOUTS, DRONE SHOTS, CROWD REACTIONS ETC!"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "POST FROM GAMING NICHE PAGES"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "7s MINIMUM LENGTH!"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "USE #RLCS"
+                    },
+                    {
+                        "kind": "DONT",
+                        "content": "POST LOW QUALITY / SPAM"
+                    }
+                ],
+                "minimum_views_for_approval": 5000,
+                "minimum_views_for_earnings": 1069,
+                "max_submission_count_per_social_media_account": 100,
+                "minimum_views_for_submission": null,
+                "minimum_followers": null,
+                "minimum_submission_duration_seconds": 7,
+                "minimum_engagement_percentage": 0.2,
+                "external_discord_guild_id": "1509533178748993636",
+                "ends_at": "2026-06-30T00:00:00Z",
+                "post_examples": [],
+                "sounds": [],
+                "allowed_platforms": [
+                    "SOCIAL_MEDIA_PLATFORM_YOUTUBE",
+                    "SOCIAL_MEDIA_PLATFORM_TIKTOK",
+                    "SOCIAL_MEDIA_PLATFORM_INSTAGRAM"
+                ],
+                "tags": [
+                    "CLIPPING"
+                ],
+                "niche_restrictions_enabled": true,
+                "niche_data": {
+                    "niches": [
+                        "GAMING"
+                    ],
+                    "subniches": []
+                },
+                "caption_requirements": {
+                    "required_tags": []
+                },
+                "statistics": {
+                    "pending_submissions": 0,
+                    "pending_submission_views": 0,
+                    "ready_for_payout_submissions": 0,
+                    "total_views": 12342337,
+                    "non_rejected_view_count": 0,
+                    "total_submissions": 0,
+                    "total_approved": 0,
+                    "total_rejected": 0,
+                    "non_rejected_submissions": 0,
+                    "creator_count": 0,
+                    "approved_earnings": "3326.65",
+                    "potential_earnings": "3550.53",
+                    "eligible_view_count": 0,
+                    "eligible_like_count": 0,
+                    "eligible_comment_count": 0,
+                    "eligible_share_count": 0,
+                    "eligible_save_count": 0,
+                    "engagement_percentage": null
+                },
+                "rate_per_million_views": "500",
+                "discord_invite_url": "https://discord.gg/RK5mGweZJM",
+                "geo_restrictions_enabled": false,
+                "geo_rules": []
+            },
+            {
+                "id": "2c5f3604-938f-48be-8f25-d27030db216d",
+                "name": "Duelbits [LIQUID]",
+                "description": "✅ Allowed :\nDuelbits x Team Liquid content only! \n\n👇 Requirements :\nMust use provided player models on top of their highlight clips!\n\n📋 Player Models \u0026 Example :\nhttps://drive.google.com/drive/folders/1zHtSFomtRg-lKgjLMc7_FweAcHM6Nm5B?usp=sharing\n\n📁Join Discord for Support \u0026 More Details!",
+                "max_earnings": "8250",
+                "max_earnings_per_user": "5000",
+                "max_earnings_per_submission": "600",
+                "rate_per_one_thousand_views": "0.3",
+                "thumbnail_url": "https://static.clipcdn.com/campaigns/icons/2026-06-01T14-43-30.865Z-ChatGPT-Image-Jun-1--2026--05-43-14-PM.jpg",
+                "status": "CAMPAIGN_STATUS_ACTIVE",
+                "type": "CAMPAIGN_TYPE_CLIPPING",
+                "category": "CAMPAIGN_CATEGORY_GAMING",
+                "created_by_entity": "PLATFORM_STAFF",
+                "require_sound_usage": false,
+                "is_popular": false,
+                "is_discord_exclusive": false,
+                "disable_dashboard_submissions": false,
+                "content_type": "CAMPAIGN_CONTENT_TYPE_VIDEO",
+                "guidelines": [
+                    {
+                        "kind": "DO",
+                        "content": "POST LIQUID CS2 PLAYER HIGHLIGHTS"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "USE THE PROVIDED [PLAYER MODELS](https://drive.google.com/drive/folders/1zHtSFomtRg-lKgjLMc7_FweAcHM6Nm5B?usp=sharing)"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "PLAYER MODEL WITH DUELBITS LOGO TO BE VISIBLE AT ALL TIMES"
+                    },
+                    {
+                        "kind": "DONT",
+                        "content": "POST LOW QUALITY / SPAM"
+                    }
+                ],
+                "minimum_views_for_approval": 5000,
+                "minimum_views_for_earnings": 1069,
+                "max_submission_count_per_social_media_account": 150,
+                "minimum_views_for_submission": null,
+                "minimum_followers": null,
+                "minimum_submission_duration_seconds": 6,
+                "minimum_engagement_percentage": 0.2,
+                "external_discord_guild_id": "1511023072193548348",
+                "ends_at": "2026-07-31T00:00:00Z",
+                "post_examples": [
+                    {
+                        "public_url": "https://drive.google.com/file/d/1cYKQWhE1yhEHVFuuJlgC2QAJEj-oiq89",
+                        "source_url": "https://cdn.clipster.gg/example-posts/d7db2976-e16d-472a-87d7-11c5af31500a"
+                    }
+                ],
+                "sounds": [],
+                "allowed_platforms": [
+                    "SOCIAL_MEDIA_PLATFORM_YOUTUBE",
+                    "SOCIAL_MEDIA_PLATFORM_TIKTOK",
+                    "SOCIAL_MEDIA_PLATFORM_INSTAGRAM"
+                ],
+                "tags": [
+                    "CLIPPING",
+                    "CS2"
+                ],
+                "niche_restrictions_enabled": true,
+                "niche_data": {
+                    "niches": [
+                        "GAMING"
+                    ],
+                    "subniches": [
+                        "CS2"
+                    ]
+                },
+                "caption_requirements": {
+                    "required_tags": []
+                },
+                "statistics": {
+                    "pending_submissions": 0,
+                    "pending_submission_views": 0,
+                    "ready_for_payout_submissions": 0,
+                    "total_views": 10006149,
+                    "non_rejected_view_count": 0,
+                    "total_submissions": 0,
+                    "total_approved": 0,
+                    "total_rejected": 0,
+                    "non_rejected_submissions": 0,
+                    "creator_count": 0,
+                    "approved_earnings": "985.53",
+                    "potential_earnings": "1755.32",
+                    "eligible_view_count": 0,
+                    "eligible_like_count": 0,
+                    "eligible_comment_count": 0,
+                    "eligible_share_count": 0,
+                    "eligible_save_count": 0,
+                    "engagement_percentage": null
+                },
+                "rate_per_million_views": "300",
+                "discord_invite_url": "https://discord.gg/5g9jQecs2U",
+                "geo_restrictions_enabled": false,
+                "geo_rules": []
+            },
+            {
+                "id": "85a0f9c5-1acf-4854-bf92-6a586da555f5",
+                "name": "Rainbet x Brandrisk [CLIPPING] 3",
+                "description": "⚠️ BRANDRISK 014 SUNDAY, MAY 24, 5:00AM GMT+2 ⚠️\n\nCREATE CLIPS FROM MAIN EVENT\nYOU CAN ALSO CLIP OLD EVENTS \n\n✅ Allowed :\nBrandrisk content with Rainbet branding/logo clearly visible only!\nThe Rainbet logo has to appear naturally in the video!\n\n📁 Full Instructions \u0026 Guidelines :\nhttps://www.notion.so/Rainbet-x-Brandrisk-Creator-Guidelines-2ea4a057b8c980beb59ffd52c125aaf8?source=copy_link\n\n👇Requirements : \nMust follow Clipster Standard Content Rules!",
+                "max_earnings": "15000",
+                "max_earnings_per_user": "4000",
+                "max_earnings_per_submission": "600",
+                "rate_per_one_thousand_views": "0.3",
+                "thumbnail_url": "https://static.clipcdn.com/campaigns/85a0f9c5-1acf-4854-bf92-6a586da555f5/icon.jpg",
+                "status": "CAMPAIGN_STATUS_ACTIVE",
+                "type": "CAMPAIGN_TYPE_CLIPPING",
+                "category": "CAMPAIGN_CATEGORY_ENTERTAINMENT",
+                "created_by_entity": "PLATFORM_STAFF",
+                "require_sound_usage": false,
+                "is_popular": false,
+                "is_discord_exclusive": false,
+                "disable_dashboard_submissions": false,
+                "content_type": "CAMPAIGN_CONTENT_TYPE_VIDEO",
+                "guidelines": [
+                    {
+                        "kind": "DO",
+                        "content": "MUST READ BRIEF - [BRIEF](https://www.notion.so/Rainbet-x-Brandrisk-Creator-Guidelines-2ea4a057b8c980beb59ffd52c125aaf8)"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "RAINBET LOGO/BRANDING MUST APPEAR NATURALLY WITHIN THE CLIP"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "RAINBET BRANDING/LOGO MUST BE VISIBLE FOR MAJORITY OF THE CLIP"
+                    },
+                    {
+                        "kind": "DO",
+                        "content": "MUST USE #RAINBET #BRANDRISK"
+                    },
+                    {
+                        "kind": "DONT",
+                        "content": "LOW RESOLUTION OR BLURRY CLIPS"
+                    }
+                ],
+                "minimum_views_for_approval": 2750,
+                "minimum_views_for_earnings": 1069,
+                "max_submission_count_per_social_media_account": 75,
+                "minimum_views_for_submission": null,
+                "minimum_followers": null,
+                "minimum_submission_duration_seconds": null,
+                "minimum_engagement_percentage": 0.2,
+                "external_discord_guild_id": "1370618492344078420",
+                "ends_at": "2026-06-22T00:00:00Z",
+                "post_examples": [
+                    {
+                        "public_url": "https://drive.google.com/file/d/18h7RU_k92WUxGZwZHbmP8lhs3pQf21-S",
+                        "source_url": "https://cdn.clipster.gg/example-posts/5adf70c6-241b-427d-aed7-471ea5cc070e"
+                    },
+                    {
+                        "public_url": "https://drive.google.com/file/d/1XY9E8cBgVa22rG5EkY2iC1VegXWqoylK",
+                        "source_url": "https://cdn.clipster.gg/example-posts/3e58659d-2972-4f62-af53-cb752792b8c6"
+                    }
+                ],
+                "sounds": [],
+                "allowed_platforms": [
+                    "SOCIAL_MEDIA_PLATFORM_TIKTOK",
+                    "SOCIAL_MEDIA_PLATFORM_YOUTUBE",
+                    "SOCIAL_MEDIA_PLATFORM_INSTAGRAM"
+                ],
+                "tags": [
+                    "CLIPPING",
+                    "FIGHTING"
+                ],
+                "niche_restrictions_enabled": false,
+                "niche_data": {
+                    "niches": [],
+                    "subniches": []
+                },
+                "caption_requirements": {
+                    "required_tags": []
+                },
+                "statistics": {
+                    "pending_submissions": 0,
+                    "pending_submission_views": 0,
+                    "ready_for_payout_submissions": 0,
+                    "total_views": 11302013,
+                    "non_rejected_view_count": 0,
+                    "total_submissions": 0,
+                    "total_approved": 0,
+                    "total_rejected": 0,
+                    "non_rejected_submissions": 0,
+                    "creator_count": 0,
+                    "approved_earnings": "2258.54",
+                    "potential_earnings": "2572.43",
+                    "eligible_view_count": 0,
+                    "eligible_like_count": 0,
+                    "eligible_comment_count": 0,
+                    "eligible_share_count": 0,
+                    "eligible_save_count": 0,
+                    "engagement_percentage": null
+                },
+                "rate_per_million_views": "300",
+                "discord_invite_url": "https://discord.gg/XeCreXZXjb",
+                "geo_restrictions_enabled": false,
+                "geo_rules": []
+            }
+        ],
+        "total_campaigns_count": 25,
+        "total_count_active_campaigns": 75,
+        "social_media_platforms_count": {
+            "SOCIAL_MEDIA_PLATFORM_FACEBOOK": 0,
+            "SOCIAL_MEDIA_PLATFORM_INSTAGRAM": 23,
+            "SOCIAL_MEDIA_PLATFORM_TIKTOK": 23,
+            "SOCIAL_MEDIA_PLATFORM_X": 3,
+            "SOCIAL_MEDIA_PLATFORM_YOUTUBE": 21
+        }
+    },
+    "metadata": {
+        "pagination": {
+            "page": 1,
+            "page_size": 20,
+            "total_pages": 2,
+            "total_items": 23
+        },
+        "total": 23,
+        "duration": 59.554
+    },
+    "timestamp": "2026-06-10T12:47:08.191702623Z"
+}

@@ -1,55 +1,58 @@
 import { Injectable, Logger } from '@nestjs/common';
+import { calculateCampaignEarnings } from './utils/campaign-earnings.util';
+import { InstagramInsightsService } from '../instagram/instagram-insights.service';
 
 @Injectable()
 export class SocialMetricsService {
     private readonly logger = new Logger(SocialMetricsService.name);
 
+    constructor(private readonly instagramInsights: InstagramInsightsService) {}
+
     /**
-     * Mock method to fetch live metrics from a Reel URL.
-     * In a real implementation, this would use yt-dlp or a social media API.
+     * Fetch live reel metrics via Instagram Graph API (clipper OAuth token).
+     * Falls back to zero views if insights are unavailable.
      */
-    async getReelMetrics(url: string) {
-        this.logger.log(`Fetching metrics for: ${url}`);
+    async getReelMetrics(
+        url: string,
+        clipperId: number,
+        instagramMediaId?: string,
+    ) {
+        this.logger.log(`Fetching Instagram insights for: ${url}`);
 
-        // Simulating API delay
-        await new Promise(resolve => setTimeout(resolve, 1000));
+        try {
+            const metrics = await this.instagramInsights.getReelMetricsForUser(
+                clipperId,
+                url,
+                instagramMediaId,
+            );
 
-        // For demo: Generate realistic view counts
-        // We'll base it on the timestamp to make it "increase" over time
-        const baseViews = 1200;
-        const growthRate = 150; // views per hour since submission
+            return {
+                views: metrics.views,
+                likes: metrics.likes,
+                comments: metrics.comments,
+                shares: metrics.shares,
+                reach: metrics.reach,
+                mediaId: metrics.mediaId,
+                updatedAt: metrics.updatedAt,
+            };
+        } catch (error) {
+            this.logger.warn(
+                `Instagram insights unavailable for participation clipper ${clipperId}: ${error instanceof Error ? error.message : error}`,
+            );
 
-        // In a real mock, we might store the 'lastViewCount' and increment it
-        // For now, let's return a random increase
-        const currentViews = baseViews + Math.floor(Math.random() * 5000);
-
-        return {
-            views: currentViews,
-            likes: Math.floor(currentViews * 0.05),
-            comments: Math.floor(currentViews * 0.01),
-            shares: Math.floor(currentViews * 0.005),
-            updatedAt: new Date()
-        };
+            return {
+                views: 0,
+                likes: 0,
+                comments: 0,
+                shares: 0,
+                reach: 0,
+                mediaId: instagramMediaId ?? '',
+                updatedAt: new Date(),
+            };
+        }
     }
 
-    /**
-     * Calculate earnings based on views and campaign pay rate.
-     */
     calculateEarnings(views: number, payRate: number, payUnit: string): number {
-        const unit = payUnit.toUpperCase();
-
-        if (unit === 'CPM' || unit.includes('1K') || unit.includes('1000')) {
-            return (views / 1000) * payRate;
-        }
-
-        if (unit === 'VIEW' || unit === 'PER_VIEW') {
-            return views * payRate;
-        }
-
-        if (unit === 'INR' || unit === 'USD' || unit === 'FIXED') {
-            return payRate; // Assume fixed for currency units for now
-        }
-
-        return 0;
+        return calculateCampaignEarnings(views, payRate, payUnit);
     }
 }

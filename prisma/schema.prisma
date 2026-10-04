@@ -29,29 +29,36 @@ model Users {
   UserStats          UserStats?
   referredBy         Users?          @relation("Referrals", fields: [referredById], references: [id])
   referrals          Users[]         @relation("Referrals")
+  socialAccounts     SocialAccount[]
 
   @@map("users")
 }
 
 model Campaign {
-  id              Int             @id @default(autoincrement())
-  clientId        Int
-  title           String
-  description     String
-  requirements    String
-  status          CampaignStatus  @default(ACTIVE)
-  platforms       Platform[]
-  startDate       DateTime
-  endDate         DateTime
-  payRate         Float
-  payUnit         String
-  budget          Float
-  createdAt       DateTime        @default(now())
-  updatedAt       DateTime        @updatedAt
-  image           String?
-  validationRules Json?
-  client          Users           @relation("ClientCampaigns", fields: [clientId], references: [id])
-  participations  Participation[]
+  id                Int             @id @default(autoincrement())
+  clientId          Int
+  title             String
+  description       String
+  requirements      String
+  requirementItems  String[]        @default([])
+  type              CampaignType    @default(CLIP)
+  typeConfig        Json?
+  status            CampaignStatus  @default(ACTIVE)
+  platforms         Platform[]
+  startDate         DateTime
+  endDate           DateTime
+  minimumPostDate   DateTime?
+  payRate           Float
+  payUnit           String
+  budget            Float
+  campaignLink      String?
+  telegramGroupLink String?
+  createdAt         DateTime        @default(now())
+  updatedAt         DateTime        @updatedAt
+  image             String?
+  validationRules   Json?
+  client            Users           @relation("ClientCampaigns", fields: [clientId], references: [id])
+  participations    Participation[]
 
   @@map("campaigns")
 }
@@ -90,6 +97,28 @@ model Reel {
   @@map("reels")
 }
 
+model SocialAccount {
+  id                    Int       @id @default(autoincrement())
+  userId                Int
+  platform              Platform
+  username              String    @unique
+  profileUrl            String?   @unique
+  avatarUrl             String?
+  instagramUserId       String?   @unique
+  accessToken           String?
+  accessTokenExpiresAt  DateTime?
+  verificationCode      String    @unique
+  isVerified            Boolean   @default(false)
+  verifiedAt            DateTime?
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+
+  user Users @relation(fields: [userId], references: [id])
+
+  @@unique([userId, platform, username])
+  @@map("social_accounts")
+}
+
 model UserStats {
   id             Int      @id @default(autoincrement())
   userId         Int      @unique
@@ -115,6 +144,18 @@ enum UserRole {
 enum CampaignStatus {
   ACTIVE
   INACTIVE
+  PAYMENT_PROCESSING
+  COMPLETED
+  DRAFT
+  PAUSED
+}
+
+enum CampaignType {
+  CLIP
+  UGC
+  MUSIC_PROMO
+  CHALLENGE
+  AFFILIATE
 }
 
 enum Platform {

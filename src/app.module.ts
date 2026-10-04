@@ -10,6 +10,8 @@ import { ConfigModule } from './config/config.module';
 import { CampaignsModule } from './campaigns/campaigns.module';
 import { ScheduleModule } from '@nestjs/schedule';
 import { ReelsModule } from './reels/reels.module';
+import { SocialAccountsModule } from './social-accounts/social-accounts.module';
+import { InstagramModule } from './instagram/instagram.module';
 
 @Module({
   imports: [
@@ -19,6 +21,8 @@ import { ReelsModule } from './reels/reels.module';
     UsersModule,
     CampaignsModule,
     ReelsModule,
+    SocialAccountsModule,
+    InstagramModule,
     ScheduleModule.forRoot()
   ],
   controllers: [AppController],

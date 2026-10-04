@@ -1,7 +1,14 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { Cron, CronExpression } from '@nestjs/schedule';
+import { CampaignType } from '@prisma/client';
 import { PrismaService } from '../prisma/prisma.service';
 import { SocialMetricsService } from './social-metrics.service';
+import { ClipHandler } from './types/clip/clip.handler';
+import { parseClipConfig } from './types/clip/clip-campaign-config';
+import {
+    SubmissionStatus,
+    computeEngagementPercent,
+} from './validation/validation-types';
 
 @Injectable()
 export class MetricsScheduler {
@@ -10,28 +17,34 @@ export class MetricsScheduler {
     constructor(
         private prisma: PrismaService,
         private metricsService: SocialMetricsService,
+        private clipHandler: ClipHandler,
     ) { }
 
     /**
-     * Sync metrics for all verified submissions every hour.
-     * In a real system, you might run this less frequently (e.g., every 6-12 hours).
+     * Hourly sync for active submissions:
+     * - refresh views/engagement from Instagram Graph API
+     * - promote PENDING → VERIFIED once minimumViewsForApproval is reached
+     * - recalculate earnings (thresholds + caps via ClipHandler)
      */
     @Cron(CronExpression.EVERY_HOUR)
     async syncAllMetrics() {
         this.logger.log('Starting automated metrics sync...');
 
-        const verifiedParticipations = await this.prisma.participation.findMany({
+        const participations = await this.prisma.participation.findMany({
             where: {
-                submissionStatus: 'VERIFIED',
+                submissionStatus: {
+                    in: [SubmissionStatus.VERIFIED, SubmissionStatus.PENDING],
+                },
+                submissionUrl: { not: null },
             },
             include: {
                 campaign: true,
             },
         });
 
-        this.logger.log(`Found ${verifiedParticipations.length} verified submissions to sync.`);
+        this.logger.log(`Found ${participations.length} submissions to sync.`);
 
-        for (const participation of verifiedParticipations) {
+        for (const participation of participations) {
             try {
                 await this.syncParticipationMetrics(participation);
             } catch (error) {
@@ -43,19 +56,50 @@ export class MetricsScheduler {
     }
 
     private async syncParticipationMetrics(participation: any) {
-        const { submissionUrl, campaign } = participation;
+        const { submissionUrl, campaign, clipperId, submissionDetails } = participation;
+        const details =
+            typeof submissionDetails === 'object' && submissionDetails !== null
+                ? (submissionDetails as Record<string, any>)
+                : {};
+        const instagramMediaId = details.mediaId as string | undefined;
 
-        // 1. Fetch live metrics
-        const metrics = await this.metricsService.getReelMetrics(submissionUrl);
-
-        // 2. Calculate earnings
-        const newEarnings = this.metricsService.calculateEarnings(
-            metrics.views,
-            campaign.payRate,
-            campaign.payUnit
+        const metrics = await this.metricsService.getReelMetrics(
+            submissionUrl,
+            clipperId,
+            instagramMediaId,
         );
 
-        // 3. Update Participation
+        // PENDING → VERIFIED promotion once approval threshold is met
+        let status = participation.submissionStatus as string;
+        if (
+            status === SubmissionStatus.PENDING &&
+            campaign.type === CampaignType.CLIP
+        ) {
+            const config = parseClipConfig(campaign.typeConfig);
+            if (
+                !config.minimumViewsForApproval ||
+                metrics.views >= config.minimumViewsForApproval
+            ) {
+                status = SubmissionStatus.VERIFIED;
+                this.logger.log(
+                    `Participation ${participation.id} promoted PENDING → VERIFIED (${metrics.views} views)`,
+                );
+            }
+        }
+
+        const newEarnings =
+            campaign.type === CampaignType.CLIP
+                ? this.clipHandler.earningsForViews(
+                    campaign,
+                    parseClipConfig(campaign.typeConfig),
+                    metrics.views,
+                )
+                : this.metricsService.calculateEarnings(
+                    metrics.views,
+                    campaign.payRate,
+                    campaign.payUnit,
+                );
+
         const previousViews = participation.views || 0;
         const previousEarnings = participation.earnings || 0;
 
@@ -64,11 +108,26 @@ export class MetricsScheduler {
             data: {
                 views: metrics.views,
                 earnings: newEarnings,
+                submissionStatus: status,
+                submissionDetails: {
+                    ...details,
+                    metrics: {
+                        views: metrics.views,
+                        likes: metrics.likes,
+                        comments: metrics.comments,
+                        shares: metrics.shares,
+                        reach: metrics.reach,
+                        engagementPercent: computeEngagementPercent(
+                            metrics.views,
+                            metrics.likes,
+                            metrics.comments,
+                        ),
+                    },
+                },
                 lastMetricsSync: new Date(),
             },
         });
 
-        // 4. Update Global UserStats
         const viewDiff = metrics.views - previousViews;
         const earningDiff = newEarnings - previousEarnings;
 
@@ -85,6 +144,6 @@ export class MetricsScheduler {
             },
         });
 
-        this.logger.log(`Synced: [ID ${participation.id}] Views: ${metrics.views} | Earnings: $${newEarnings.toFixed(2)}`);
+        this.logger.log(`Synced: [ID ${participation.id}] ${status} | Views: ${metrics.views} | Earnings: $${newEarnings.toFixed(2)}`);
     }
 }

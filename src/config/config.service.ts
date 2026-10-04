@@ -28,6 +28,38 @@ export class ConfigService {
         return this.get('JWT_REFRESH_EXPIRATION', '7d');
     }
 
+
+    get rapidAPIkey():string {
+        return this.getOrThrow('X_REPID_API_KEY')
+    }
+
+    get instagramAppId(): string {
+        return this.getEnv('INSTA_APP_ID');
+    }
+
+    get instagramAppSecret(): string {
+        return this.getEnv('INSTA_APP_SECRET');
+    }
+
+    get instagramWebhookVerifyToken(): string {
+        return this.get('INSTAGRAM_WEBHOOK_VERIFY_TOKEN', 'onlycreators_webhook_verify');
+    }
+
+    get instagramRedirectUri(): string {
+        return this.getOrThrow('INSTAGRAM_REDIRECT_URI');
+    }
+
+    get instagramOAuthScopes(): string {
+        return this.get(
+            'INSTAGRAM_OAUTH_SCOPES',
+            'instagram_business_basic,instagram_business_manage_insights',
+        );
+    }
+
+    get frontendUrl(): string {
+        return this.get('FRONTEND_URL', 'http://localhost:3000');
+    }
+
     // Server Configuration
     get port(): number {
         return parseInt(this.get('PORT', '3000'), 10);

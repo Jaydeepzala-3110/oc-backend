@@ -4,17 +4,26 @@ import { CampaignsController } from './campaigns.controller';
 import { GameValidationService } from './game-validation.service';
 import { SocialMetricsService } from './social-metrics.service';
 import { MetricsScheduler } from './metrics.scheduler';
-import { ConfigService } from '@nestjs/config';
+import { ClipValidationPipeline } from './validation/clip-validation.pipeline';
+import { SoundMatchService } from './validation/sound-match.service';
+import { ContentRulesService } from './validation/content-rules.service';
+import { ClipHandler } from './types/clip/clip.handler';
+import { PrismaModule } from '../prisma/prisma.module';
+import { InstagramModule } from '../instagram/instagram.module';
 
 @Module({
+  imports: [PrismaModule, InstagramModule],
   controllers: [CampaignsController],
   providers: [
     CampaignsService,
     GameValidationService,
     SocialMetricsService,
     MetricsScheduler,
-    ConfigService
+    ClipValidationPipeline,
+    SoundMatchService,
+    ContentRulesService,
+    ClipHandler,
   ],
-  exports: [GameValidationService, SocialMetricsService],
+  exports: [GameValidationService, SocialMetricsService, ClipHandler],
 })
 export class CampaignsModule { }
